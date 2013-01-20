@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_InfoGen</class>
+ <widget class="QDialog" name="Dialog_InfoGen">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Información General</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>621</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>2</y>
+     <width>671</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>653</width>
+      <height>1742</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <property name="margin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>161</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Información Económica</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>122</height>
+            </rect>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Ingreso - frecuencia y constancia de trabajo</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Cantidad de dinero para alimentación semana o mes</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>¿Recibe ayuda?</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Persona responsable de economía</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>160</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Actividad física</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>122</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Ocupación - tipo, horas/semana, turno</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Ejercicio (tipo, cantidad, frecuencia)</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Sueño (horas/día) ¿Sin interrupción?</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Incapacidades</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>129</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Antecedentes étnicos o culturales</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>92</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Influencia en los hábitos alimenticios</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Religión</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Educación</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>217</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Vida casera y patrones de comidas</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_4">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>182</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Número en la casa (¿Comen juntos?)</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Personas que hacen la compra</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Personas que cocinan</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Instalaciones para guardar alimentos y cocinarlos</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Tipo de alojamiento</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Capacidad para comprar y preparar alimentos</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="4" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="5" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>127</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Apetito</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_5">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>92</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Malo, bueno, algún cambio</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Factores que afectan al apetito</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Percepción del gusto, olfato y cualquier cambio</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>97</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Actitud hacia el alimento y la alimentación</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_6">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>62</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Falta de interés en el alimento</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Ideas irracionales sobre el alimento, comer y peso</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>127</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Alergias, intolerancias o rechazo de alimentos</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_7">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>92</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Alimentos que se rechazan y razón</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Tiempo en que se han rechazado</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Descripción de problemas causados por alimentos</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>126</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Salud dental y bucal</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_8">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>92</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Problemas con la alimentación</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Alimentos que no puede comer</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Problemas con la deglución, salivación, viscosidad del alimento</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>159</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Gastrointestinales</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_9">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>122</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Problemas por pirosis, timpanismo, gas, ...</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Frecuencia de problemas</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Remedios caseros</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Uso de antiácidos, laxantes u otros fármacos</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="3" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_10">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>128</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Enfermedad crónica</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_10">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>92</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Tratamiento</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Duración del tratamiento</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Modificación de la dieta</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_11">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>99</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Medicamentos</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_11">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>62</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Suplementos de vitaminas o minerales</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Medicamentos - tipo, cantidad, frecuencia</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_12">
+          <property name="minimumSize">
+           <size>
+            <width>630</width>
+            <height>128</height>
+           </size>
+          </property>
+          <property name="title">
+           <string>Cambio reciente de peso</string>
+          </property>
+          <widget class="QTableWidget" name="tableWidget_12">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>611</width>
+             <height>92</height>
+            </rect>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Pérdida o aumento</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Cuántos kilos, en qué tiempo</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Intencional o no voluntario</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Descripción / Aclaraciones</string>
+            </property>
+           </column>
+           <item row="0" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="1" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item row="2" column="0">
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>tableWidget</tabstop>
+  <tabstop>tableWidget_2</tabstop>
+  <tabstop>tableWidget_3</tabstop>
+  <tabstop>tableWidget_4</tabstop>
+  <tabstop>tableWidget_5</tabstop>
+  <tabstop>tableWidget_6</tabstop>
+  <tabstop>tableWidget_7</tabstop>
+  <tabstop>tableWidget_8</tabstop>
+  <tabstop>tableWidget_9</tabstop>
+  <tabstop>tableWidget_10</tabstop>
+  <tabstop>tableWidget_11</tabstop>
+  <tabstop>tableWidget_12</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog_InfoGen</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog_InfoGen</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

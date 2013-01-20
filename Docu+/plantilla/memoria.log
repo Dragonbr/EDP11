@@ -1,0 +1,2769 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.1.8)  17 JAN 2013 00:37
+entering extended mode
+ %&-line parsing enabled.
+**memoria.tex
+(./memoria.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./estilo/paquetes.sty
+
+LaTeX Warning: You have requested package `./estilo/paquetes',
+               but the package provides `paquete'.
+
+Package: paquete 
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Spanish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@spanish = a dialect from \language0
+\es@datefmt=\count89
+\es@quottoks=\toks16
+\es@quotdepth=\count90
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+)) (/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks18
+\thm@bodyfont=\toks19
+\thm@headfont=\toks20
+\thm@notefont=\toks21
+\thm@headpunct=\toks22
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks24
+\ex@=\dimen104
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks25
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks26
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks27
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks29
+\extratabsurround=\skip49
+\backup@length=\skip50
+)
+(/usr/share/texmf-texlive/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box28
+)
+(/usr/share/texmf-texlive/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2000/09/19 1.3
+
+Style option: `fancybox' v1.3 <2000/09/19> (tvz)
+\@fancybox=\box29
+\shadowsize=\dimen115
+\@Sbox=\box30
+\do@VerbBox=\toks30
+\the@fancyput=\toks31
+\this@fancyput=\toks32
+\EndVerbatimTokens=\toks33
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks34
+\float@box=\box31
+\@float@everytoks=\toks35
+\@floatcapt=\box32
+)
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks36
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@dimlist=\toks37
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count107
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen122
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
+
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count110
+\Field@Width=\dimen123
+\Fld@charsize=\dimen124
+\Field@toks=\toks38
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count114
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2008/12/08 v2.3 LaTeX2e KOMA-Script package
+)
+(/usr/share/texmf-texlive/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count115
+\ST@wd=\dimen125
+\ST@rightskip=\skip51
+\ST@leftskip=\skip52
+\ST@parfillskip=\skip53
+\ST@pageleft=\dimen126
+\ST@headht=\dimen127
+\ST@tailht=\dimen128
+\ST@pagesofar=\dimen129
+\ST@pboxht=\dimen130
+\ST@lineht=\dimen131
+\ST@stretchht=\dimen132
+\ST@prevht=\dimen133
+\ST@toadd=\dimen134
+\ST@dimen=\dimen135
+\ST@pbox=\box33
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks39
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+))
+Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
+)
+\pgf@x=\dimen136
+\pgf@y=\dimen137
+\pgf@xa=\dimen138
+\pgf@ya=\dimen139
+\pgf@xb=\dimen140
+\pgf@yb=\dimen141
+\pgf@xc=\dimen142
+\pgf@yc=\dimen143
+\c@pgf@counta=\count116
+\c@pgf@countb=\count117
+\c@pgf@countc=\count118
+\c@pgf@countd=\count119
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
+\pgfsyssoftpath@smallbuffer@items=\count120
+\pgfsyssoftpath@bigbuffer@items=\count121
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgfmath@box=\box34
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@stack=\toks42
+\c@pgfmath@parsecounta=\count122
+\c@pgfmath@parsecountb=\count123
+\c@pgfmath@parsecountc=\count124
+\pgfmath@parsex=\dimen144
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathoperations.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathtrig.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathrnd.code.tex))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathbase.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
+\pgf@picminx=\dimen145
+\pgf@picmaxx=\dimen146
+\pgf@picminy=\dimen147
+\pgf@picmaxy=\dimen148
+\pgf@pathminx=\dimen149
+\pgf@pathmaxx=\dimen150
+\pgf@pathminy=\dimen151
+\pgf@pathmaxy=\dimen152
+\pgf@xx=\dimen153
+\pgf@xy=\dimen154
+\pgf@yx=\dimen155
+\pgf@yy=\dimen156
+\pgf@zx=\dimen157
+\pgf@zy=\dimen158
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
+\pgf@path@lastx=\dimen159
+\pgf@path@lasty=\dimen160
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
+\pgf@shorten@end@additional=\dimen161
+\pgf@shorten@start@additional=\dimen162
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
+\pgfpic=\box35
+\pgf@hbox=\box36
+\pgf@layerbox@main=\box37
+\pgf@picture@serial@count=\count125
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
+\pgflinewidth=\dimen163
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
+\pgf@pt@x=\dimen164
+\pgf@pt@y=\dimen165
+\pgf@pt@temp=\dimen166
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
+\pgf@max=\dimen167
+\pgf@sys@shading@range@num=\count126
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfexternal@startupbox=\box38
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
+\pgfnodeparttextbox=\box39
+\toks@savedmacro=\toks43
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgf@plotwrite=\write4
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen168
+\pgf@nodesepend=\dimen169
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
+\pgf@plot@mark@count=\count127
+\pgfplotmarksize=\dimen172
+)
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
+\tikz@figbox=\box40
+\tikz@tempbox=\box41
+\tikztreelevel=\count128
+\tikznumberofchildren=\count129
+\tikznumberofcurrentchild=\count130
+\tikz@fig@count=\count131
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfmatrixcurrentrow=\count132
+\pgfmatrixcurrentcolumn=\count133
+\pgf@matrix@numberofcolumns=\count134
+)
+\tikz@expandcount=\count135
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+)))) (/usr/share/texmf-texlive/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2007/08/12 v1.6 TOC entries
+\ttl@leftsep=\dimen179
+)
+(./estilo/colores.sty
+
+LaTeX Warning: You have requested package `./estilo/colores',
+               but the package provides `colores'.
+
+Package: colores 
+) (./estilo/comandos.sty) (./memoria.aux
+
+LaTeX Warning: Label `ds_eliminarreceta' multiply defined.
+
+
+LaTeX Warning: Label `confirmacion_eliminar' multiply defined.
+
+
+LaTeX Warning: Label `nuevo_ingred_enfermedad' multiply defined.
+
+
+LaTeX Warning: Label `cuestfrec' multiply defined.
+
+
+LaTeX Warning: Label `cuestfrec' multiply defined.
+
+)
+\openout1 = `memoria.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: a4paper
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 71.13188pt, 455.24411pt, 71.13188pt
+v-parts: 99.58464pt, 645.87756pt, 99.58464pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  455.24411pt
+\textheight 645.87756pt
+\oddsidemargin  -1.1381pt
+\evensidemargin -1.1381pt
+\topmargin  -14.22636pt
+\headheight 12.0pt
+\headsep    28.45274pt
+\footskip   27.46295pt
+\marginparwidth 106.0pt
+\marginparsep   7.0pt
+\columnsep  10.0pt
+\skip\footins  10.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count136
+\scratchdimen=\dimen180
+\scratchbox=\box42
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen181
+\MPnumerator=\count140
+\everyMPtoPDFconversion=\toks45
+)
+Package hyperref Info: Link coloring ON on input line 25.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count141
+)
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+ (./memoria.out)
+(./memoria.out)
+\@outlinefile=\write5
+\openout5 = `memoria.out'.
+
+\AtBeginShipoutBox=\box43
+
+
+Package scrpage2 Warning: seems you are using a constant headheight.
+(scrpage2)                If you get overfull \vbox warnings at almost every
+(scrpage2)                page, you should increase headheight e.g. writing
+(scrpage2)                 \setlength{\headheight}{1.1\baselineskip}
+(scrpage2)                into the preamble of your document.
+(scrpage2)                A better solution would be to use typearea package.
+
+(./portadas/portada-inicial.tex
+<./img/logo-uca.png, id=282, 468.75125pt x 602.25pt>
+File: ./img/logo-uca.png Graphic file (type png)
+ <use ./img/logo-uca.png>
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo-uca.png (PNG co
+py)>]) [2
+
+] (./portadas/portada-secundaria.tex
+File: ./img/logo-uca.png Graphic file (type png)
+ <use ./img/logo-uca.png>)
+[3] [4
+
+] (./contenido/agradecimientos.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 12--38
+
+ []
+
+[5] (./contenido/resumen.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 12--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--41
+
+ []
+
+[6] (./memoria.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+
+])
+\tf@toc=\write6
+\openout6 = `memoria.toc'.
+
+ [2] (./memoria.lof
+[3
+
+])
+\tf@lof=\write7
+\openout7 = `memoria.lof'.
+
+ [4] (./memoria.lot)
+\tf@lot=\write8
+\openout8 = `memoria.lot'.
+
+ [5
+
+] [6
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \part{ProlegÃ³meno}
+                         [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \part{ProlegÃ³meno}
+                         [2]pdfTeX warning (ext4): destination with the same id
+entifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \chapter
+             {IntroducciÃ³n} [3]pdfTeX warning (ext4): destination with the sam
+e identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \chapter
+             {IntroducciÃ³n} [4
+
+]
+Cap\'{\i }tulo 1.
+(./contenido/introduccion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \item \textbf
+                  {IntroducciÃ³n}: pequeÃ±a descripciÃ³n del proyecto, inclu...
+[5])pdfTeX warning (ext4): destination with the same identifier (name{page.6}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \chapter
+             {PlanificaciÃ³n} [6]
+Cap\'{\i }tulo 2.
+(./contenido/planificacion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+ [7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+<./img/../img/fase-inicio.png, id=612, 1068.99374pt x 352.31625pt>
+File: ./img/../img/fase-inicio.png Graphic file (type png)
+
+<use ./img/../img/fase-inicio.png>
+<./img/../img/fase-desarrollo.png, id=613, 1233.60875pt x 348.30125pt>
+File: ./img/../img/fase-desarrollo.png Graphic file (type png)
+
+<use ./img/../img/fase-desarrollo.png>
+Overfull \hbox (38.19064pt too wide) in paragraph at lines 51--52
+ [] 
+ []
+
+<./img/../img/fase-documentacion.png, id=614, 936.49875pt x 349.305pt>
+File: ./img/../img/fase-documentacion.png Graphic file (type png)
+
+<use ./img/../img/fase-documentacion.png>
+Overfull \hbox (13.00412pt too wide) in paragraph at lines 62--63
+ [] 
+ []
+
+)
+Underfull \vbox (badness 4048) has occurred while \output is active []
+
+ [8 <./img/../img/fase-inicio.png (PNG copy)> <./img/../img/fase-desarrollo.png
+ (PNG copy)>] [9 <./img/../img/fase-documentacion.png (PNG copy)>] [10
+
+] [11] [12] [13]
+[14
+
+]
+Cap\'{\i }tulo 3.
+(./contenido/analisis.tex [15]
+<./img/../img/CU_Dietista.png, id=648, 512.91624pt x 233.87375pt>
+File: ./img/../img/CU_Dietista.png Graphic file (type png)
+
+<use ./img/../img/CU_Dietista.png> [16 <./img/../img/CU_Dietista.png (PNG copy)
+>] <./img/../img/DS_NuevoDietista.png, id=654, 351.3125pt x 255.95625pt>
+File: ./img/../img/DS_NuevoDietista.png Graphic file (type png)
+
+<use ./img/../img/DS_NuevoDietista.png> [17 <./img/../img/DS_NuevoDietista.png 
+(PNG copy)>]
+<./img/../img/DS_AbrirDietista.png, id=663, 401.5pt x 255.95625pt>
+File: ./img/../img/DS_AbrirDietista.png Graphic file (type png)
+
+<use ./img/../img/DS_AbrirDietista.png> [18 <./img/../img/DS_AbrirDietista.png 
+(PNG copy)>]
+<./img/../img/DS_CerrarDietista.png, id=672, 401.5pt x 255.95625pt>
+File: ./img/../img/DS_CerrarDietista.png Graphic file (type png)
+
+<use ./img/../img/DS_CerrarDietista.png> [19 <./img/../img/DS_CerrarDietista.pn
+g (PNG copy)>]
+<./img/../img/DS_EliminarDietista.png, id=681, 401.5pt x 255.95625pt>
+File: ./img/../img/DS_EliminarDietista.png Graphic file (type png)
+
+<use ./img/../img/DS_EliminarDietista.png> [20 <./img/../img/DS_EliminarDietist
+a.png (PNG copy)>] [21]
+<./img/../img/CU_Paciente.png, id=694, 715.67375pt x 1081.03876pt>
+File: ./img/../img/CU_Paciente.png Graphic file (type png)
+
+<use ./img/../img/CU_Paciente.png>
+Overfull \vbox (71.67809pt too high) has occurred while \output is active []
+
+
+[22 <./img/../img/CU_Paciente.png (PNG copy)>]
+<./img/../img/DS_NuevoPaciente.png, id=700, 401.5pt x 255.95625pt>
+File: ./img/../img/DS_NuevoPaciente.png Graphic file (type png)
+
+<use ./img/../img/DS_NuevoPaciente.png> [23 <./img/../img/DS_NuevoPaciente.png 
+(PNG copy)>]
+<./img/../img/DS_AbrirPaciente.png, id=709, 401.5pt x 255.95625pt>
+File: ./img/../img/DS_AbrirPaciente.png Graphic file (type png)
+
+<use ./img/../img/DS_AbrirPaciente.png> [24 <./img/../img/DS_AbrirPaciente.png 
+(PNG copy)>]
+<./img/../img/DS_EditarPaciente.png, id=718, 466.74374pt x 255.95625pt>
+File: ./img/../img/DS_EditarPaciente.png Graphic file (type png)
+
+<use ./img/../img/DS_EditarPaciente.png> [25 <./img/../img/DS_EditarPaciente.pn
+g (PNG copy)>]
+<./img/../img/DS_CerrarPaciente.png, id=727, 387.4475pt x 255.95625pt>
+File: ./img/../img/DS_CerrarPaciente.png Graphic file (type png)
+
+<use ./img/../img/DS_CerrarPaciente.png>
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [26]
+<./img/../img/DS_EliminarPaciente.png, id=736, 387.4475pt x 255.95625pt>
+File: ./img/../img/DS_EliminarPaciente.png Graphic file (type png)
+
+<use ./img/../img/DS_EliminarPaciente.png> [27 <./img/../img/DS_CerrarPaciente.
+png (PNG copy)>]
+<./img/../img/DS_AnadirInfoMed.png, id=745, 512.91624pt x 255.95625pt>
+File: ./img/../img/DS_AnadirInfoMed.png Graphic file (type png)
+
+<use ./img/../img/DS_AnadirInfoMed.png> [28 <./img/../img/DS_EliminarPaciente.p
+ng (PNG copy)>] [29 <./img/../img/DS_AnadirInfoMed.png (PNG copy)>]
+<./img/../img/DS_ModificarInfoMed.png, id=758, 512.91624pt x 255.95625pt>
+File: ./img/../img/DS_ModificarInfoMed.png Graphic file (type png)
+
+<use ./img/../img/DS_ModificarInfoMed.png> [30 <./img/../img/DS_ModificarInfoMe
+d.png (PNG copy)>]
+<./img/../img/DS_AnadirInfoGen.png, id=765, 512.91624pt x 255.95625pt>
+File: ./img/../img/DS_AnadirInfoGen.png Graphic file (type png)
+
+<use ./img/../img/DS_AnadirInfoGen.png> [31 <./img/../img/DS_AnadirInfoGen.png 
+(PNG copy)>]
+<./img/../img/DS_AnadirDiarioDiet.png, id=774, 512.91624pt x 255.95625pt>
+File: ./img/../img/DS_AnadirDiarioDiet.png Graphic file (type png)
+
+<use ./img/../img/DS_AnadirDiarioDiet.png> [32 <./img/../img/DS_AnadirDiarioDie
+t.png (PNG copy)>]
+<./img/../img/DS_EliminarDiarioDiet.png, id=782, 540.0175pt x 255.95625pt>
+File: ./img/../img/DS_EliminarDiarioDiet.png Graphic file (type png)
+
+<use ./img/../img/DS_EliminarDiarioDiet.png>
+Overfull \hbox (3.2361pt too wide) in paragraph at lines 694--695
+\T1/cmr/bx/n/10.95 Contrato de la op-eración: \T1/cmr/m/n/10.95 elim-i-nar-Diar
+-i-oDi-et-Pa-ciente(idDietista,idPaciente,idDiarioDietetico) 
+ []
+
+[33 <./img/../img/DS_EliminarDiarioDiet.png (PNG copy)>]
+<./img/../img/DS_AnadirRecordatorio.png, id=790, 540.0175pt x 255.95625pt>
+File: ./img/../img/DS_AnadirRecordatorio.png Graphic file (type png)
+
+<use ./img/../img/DS_AnadirRecordatorio.png> [34 <./img/../img/DS_AnadirRecorda
+torio.png (PNG copy)>]
+<./img/../img/DS_EliminarRecordatorio.png, id=798, 540.0175pt x 255.95625pt>
+File: ./img/../img/DS_EliminarRecordatorio.png Graphic file (type png)
+
+<use ./img/../img/DS_EliminarRecordatorio.png>
+Overfull \hbox (3.53743pt too wide) in paragraph at lines 784--785
+\T1/cmr/bx/n/10.95 Contrato de la op-eración: \T1/cmr/m/n/10.95 elim-i-nar-Reco
+rda-to-ri-oPa-ciente(idDietista,idPaciente,idRecordatorio) 
+ []
+
+[35 <./img/../img/DS_EliminarRecordatorio.png (PNG copy)>]
+<./img/../img/DS_AnadirFrecIng.png, id=806, 540.0175pt x 255.95625pt>
+File: ./img/../img/DS_AnadirFrecIng.png Graphic file (type png)
+
+<use ./img/../img/DS_AnadirFrecIng.png> [36 <./img/../img/DS_AnadirFrecIng.png 
+(PNG copy)>]
+<./img/../img/DS_AnadirRecetaSemanario.png, id=814, 540.0175pt x 255.95625pt>
+File: ./img/../img/DS_AnadirRecetaSemanario.png Graphic file (type png)
+
+<use ./img/../img/DS_AnadirRecetaSemanario.png> [37 <./img/../img/DS_AnadirRece
+taSemanario.png (PNG copy)>]
+<./img/../img/DS_VerSemanarios.png, id=823, 403.5075pt x 255.95625pt>
+File: ./img/../img/DS_VerSemanarios.png Graphic file (type png)
+
+<use ./img/../img/DS_VerSemanarios.png>
+Underfull \vbox (badness 1755) has occurred while \output is active []
+
+ [38]
+[39 <./img/../img/DS_VerSemanarios.png (PNG copy)>]
+<./img/../img/CU_Receta.png, id=834, 322.20375pt x 207.77625pt>
+File: ./img/../img/CU_Receta.png Graphic file (type png)
+
+<use ./img/../img/CU_Receta.png>
+<./img/../img/DS_NuevaReceta.png, id=835, 403.5075pt x 255.95625pt>
+File: ./img/../img/DS_NuevaReceta.png Graphic file (type png)
+
+<use ./img/../img/DS_NuevaReceta.png>
+Underfull \vbox (badness 3907) has occurred while \output is active []
+
+ [40 <./img/../img/CU_Receta.png (PNG copy)>]
+<./img/../img/DS_EditarReceta.png, id=845, 403.5075pt x 255.95625pt>
+File: ./img/../img/DS_EditarReceta.png Graphic file (type png)
+
+<use ./img/../img/DS_EditarReceta.png> [41 <./img/../img/DS_NuevaReceta.png (PN
+G copy)>] [42 <./img/../img/DS_EditarReceta.png (PNG copy)>]
+<./img/../img/DS_EliminarReceta.png, id=860, 403.5075pt x 255.95625pt>
+File: ./img/../img/DS_EliminarReceta.png Graphic file (type png)
+
+<use ./img/../img/DS_EliminarReceta.png>
+<./img/../img/Diagrama_Clases.png, id=861, 923.45pt x 683.55376pt>
+File: ./img/../img/Diagrama_Clases.png Graphic file (type png)
+
+<use ./img/../img/Diagrama_Clases.png>
+Overfull \hbox (6.47975pt too wide) in paragraph at lines 1090--1091
+ [] 
+ []
+
+
+Underfull \vbox (badness 2503) has occurred while \output is active []
+
+ [43 <./img/../img/DS_EliminarReceta.png (PNG copy)>]) [44 <./img/../img/Diagra
+ma_Clases.png (PNG copy)>]
+Cap\'{\i }tulo 4.
+(./contenido/diseno.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+[45
+
+]
+Overfull \hbox (3.05533pt too wide) in paragraph at lines 40--41
+[]\T1/cmr/bx/n/10.95 Método ``MostrarEnf-Pa-ciente''\T1/cmr/m/n/10.95 : re-al-i
+za una con-sul-ta para mostrar las en-fer-medades
+ []
+
+[46] [47] <./img/../img/DI_NuevoDietista.png, id=888, 757.83125pt x 220.825pt>
+File: ./img/../img/DI_NuevoDietista.png Graphic file (type png)
+
+<use ./img/../img/DI_NuevoDietista.png>
+<./img/../img/DI_NuevoPaciente.png, id=889, 968.61874pt x 277.035pt>
+File: ./img/../img/DI_NuevoPaciente.png Graphic file (type png)
+
+<use ./img/../img/DI_NuevoPaciente.png> [48 <./img/../img/DI_NuevoDietista.png 
+(PNG copy)>]
+Overfull \hbox (0.20366pt too wide) in paragraph at lines 130--131
+[]\T1/cmr/m/it/10.95 IntroducirDatosDietista(datosDietista)\T1/cmr/m/n/10.95 : 
+ini-cia la op-eración de in-tro-duc-ción de los datos
+ []
+
+[49 <./img/../img/DI_NuevoPaciente.png (PNG copy)>]
+<./img/../../Image/aplicacion.png, id=899, 916.42375pt x 644.4075pt>
+File: ./img/../../Image/aplicacion.png Graphic file (type png)
+
+<use ./img/../../Image/aplicacion.png>
+Overfull \hbox (2.96664pt too wide) in paragraph at lines 158--159
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+[51 <./img/../../Image/aplicacion.png (PNG copy)>]
+<./img/../../Image/paciente-datos.png, id=908, 915.42pt x 641.39626pt>
+File: ./img/../../Image/paciente-datos.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-datos.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 174--175
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--177
+
+ []
+
+[52 <./img/../../Image/paciente-datos.png (PNG copy)>]
+<./img/../../Image/paciente-antrop.png, id=913, 915.42pt x 644.4075pt>
+File: ./img/../../Image/paciente-antrop.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-antrop.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 186--187
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--189
+
+ []
+
+[53 <./img/../../Image/paciente-antrop.png>]
+<./img/../../Image/paciente-hist.png, id=920, 915.42pt x 644.4075pt>
+File: ./img/../../Image/paciente-hist.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-hist.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 198--199
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--201
+
+ []
+
+[54 <./img/../../Image/paciente-hist.png (PNG copy)>]
+<./img/../../Image/paciente-registro.png, id=925, 915.42pt x 646.415pt>
+File: ./img/../../Image/paciente-registro.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-registro.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 210--211
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--213
+
+ []
+
+[55 <./img/../../Image/paciente-registro.png (PNG copy)>]
+<./img/../../Image/paciente-nuevo1.png, id=931, 647.41875pt x 433.62pt>
+File: ./img/../../Image/paciente-nuevo1.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-nuevo1.png>
+<./img/../../Image/receta-nueva.png, id=932, 714.67pt x 605.26125pt>
+File: ./img/../../Image/receta-nueva.png Graphic file (type png)
+
+<use ./img/../../Image/receta-nueva.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./img/../../Image/paciente-nuevo1.png (PNG copy)>]
+Underfull \hbox (badness 1297) in paragraph at lines 274--275
+[]|\T1/cmr/m/n/10.95 Id_semanario, Lunes, Martes, Mier-coles, Jueves, Viernes, 
+Saba-do,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--279
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <./img/../../Image/receta-nueva.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
+
+ []
+
+[58] <./img/../img/Diagrama_ER.png, id=945, 826.08624pt x 614.295pt>
+File: ./img/../img/Diagrama_ER.png Graphic file (type png)
+
+<use ./img/../img/Diagrama_ER.png>
+Overfull \hbox (40.41145pt too wide) in paragraph at lines 309--310
+ [] 
+ []
+
+[59 <./img/../img/Diagrama_ER.png (PNG copy)>]
+Overfull \hbox (34.14717pt too wide) in paragraph at lines 327--328
+[]\T1/cmr/m/n/10.95 Se in-cluye \T1/cmr/m/it/10.95 Id_paciente \T1/cmr/m/n/10.9
+5 en las tablas ``Análi-sis'', ``Antrop_Nec'', ``Di-ario_Diet'', ``Enf_Paciente
+'',
+ []
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 401--405
+
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
+[]|$[]$\T1/cmr/m/n/10.95 , Nom-br-eRec, Nom-bre-In-gred, Cant-In-gred, Cal-In-g
+red,
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 461--462
+[]|$[]$\T1/cmr/m/n/10.95 , Lunes, Martes, Mier-coles, Jueves, Viernes, Saba-do,
+
+ []
+
+
+Overfull \hbox (9.59068pt too wide) in paragraph at lines 440--464
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Overfull \hbox (40.29005pt too wide) in paragraph at lines 469--472
+\T1/cmr/m/n/10.95 de las mis-mas. Ob-ser-va-mos que du-rante la nor-mal-ización
+ creamos tablas nuevas, lla-madas ``Imc_Paciente'',
+ []
+
+[63]) [64
+
+]
+Cap\'{\i }tulo 5.
+(./contenido/implementacion.tex [65]
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+) [66]
+Cap\'{\i }tulo 6.
+(./contenido/pruebas.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+[67
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+
+Underfull \vbox (badness 3668) has occurred while \output is active []
+
+ [68]
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 59--78
+
+ []
+
+[69] [70
+
+] [71] [72] [73] [74
+
+]
+Cap\'{\i }tulo 7.
+(./contenido/manual_usuario.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--20
+
+ []
+
+File: ./img/../../Image/aplicacion.png Graphic file (type png)
+<use ./img/../../Image/aplicacion.png>
+Overfull \hbox (2.96664pt too wide) in paragraph at lines 37--38
+ [] 
+ []
+
+[75] <./img/../../Image/barra-superior.png, id=1018, 915.42pt x 58.2175pt>
+File: ./img/../../Image/barra-superior.png Graphic file (type png)
+
+<use ./img/../../Image/barra-superior.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 50--51
+ [] 
+ []
+
+<./img/../../Image/archivo-barra.png, id=1019, 912.40875pt x 175.65625pt>
+File: ./img/../../Image/archivo-barra.png Graphic file (type png)
+
+<use ./img/../../Image/archivo-barra.png>
+Overfull \hbox (0.95915pt too wide) in paragraph at lines 72--73
+ [] 
+ []
+
+[76 <./img/../../Image/barra-superior.png (PNG copy)>]
+<./img/../../Image/paciente-barra.png, id=1024, 915.42pt x 150.5625pt>
+File: ./img/../../Image/paciente-barra.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-barra.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 91--92
+ [] 
+ []
+
+<./img/../../Image/receta-barra.png, id=1025, 914.41624pt x 132.495pt>
+File: ./img/../../Image/receta-barra.png Graphic file (type png)
+
+<use ./img/../../Image/receta-barra.png>
+Overfull \hbox (1.96289pt too wide) in paragraph at lines 109--110
+ [] 
+ []
+
+<./img/../../Image/ayuda-barra.png, id=1026, 915.42pt x 102.3825pt>
+File: ./img/../../Image/ayuda-barra.png Graphic file (type png)
+
+<use ./img/../../Image/ayuda-barra.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 126--127
+ [] 
+ []
+
+[77 <./img/../../Image/archivo-barra.png> <./img/../../Image/paciente-barra.png
+> <./img/../../Image/receta-barra.png>]
+<./img/../../Image/dietista-abrir.png, id=1034, 428.60126pt x 350.30875pt>
+File: ./img/../../Image/dietista-abrir.png Graphic file (type png)
+
+<use ./img/../../Image/dietista-abrir.png>
+Underfull \hbox (badness 10000) in paragraph at lines 135--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--146
+
+ []
+
+<./img/../../Image/dietista-passwd.png, id=1035, 323.2075pt x 209.78375pt>
+File: ./img/../../Image/dietista-passwd.png Graphic file (type png)
+
+<use ./img/../../Image/dietista-passwd.png>
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78 <./img/../../Image/ayuda-barra.png> <./img/../../Image/dietista-abrir.png 
+(PNG copy)>] <./img/../../Image/dietista-datos.png, id=1044, 455.7025pt x 296.1
+0625pt>
+File: ./img/../../Image/dietista-datos.png Graphic file (type png)
+
+<use ./img/../../Image/dietista-datos.png>
+Underfull \hbox (badness 10000) in paragraph at lines 162--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--173
+
+ []
+
+<./img/../../Image/dietista-eliminar.png, id=1045, 285.065pt x 174.6525pt>
+File: ./img/../../Image/dietista-eliminar.png Graphic file (type png)
+
+<use ./img/../../Image/dietista-eliminar.png>
+Underfull \hbox (badness 10000) in paragraph at lines 175--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--186
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79 <./img/../../Image/dietista-passwd.png (PNG copy)> <./img/../../Image/diet
+ista-datos.png (PNG copy)>]
+<./img/../../Image/dietista-cerrar.png, id=1053, 285.065pt x 140.525pt>
+File: ./img/../../Image/dietista-cerrar.png Graphic file (type png)
+
+<use ./img/../../Image/dietista-cerrar.png>
+Underfull \hbox (badness 10000) in paragraph at lines 189--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
+
+ []
+
+<./img/../../Image/dietista-imprimir.png, id=1054, 466.74374pt x 231.86626pt>
+File: ./img/../../Image/dietista-imprimir.png Graphic file (type png)
+
+<use ./img/../../Image/dietista-imprimir.png>
+Underfull \hbox (badness 10000) in paragraph at lines 204--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+
+ []
+
+[80 <./img/../../Image/dietista-eliminar.png (PNG copy)> <./img/../../Image/die
+tista-cerrar.png (PNG copy)> <./img/../../Image/dietista-imprimir.png (PNG copy
+)>]
+File: ./img/../../Image/paciente-nuevo1.png Graphic file (type png)
+ <use ./img/../../Image/paciente-nuevo1.png>
+Underfull \hbox (badness 10000) in paragraph at lines 224--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--235
+
+ []
+
+<./img/../../Image/paciente-nuevo2.png, id=1062, 646.415pt x 436.63126pt>
+File: ./img/../../Image/paciente-nuevo2.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-nuevo2.png>
+Underfull \hbox (badness 10000) in paragraph at lines 237--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--247
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+
+ []
+
+<./img/../../Image/cuestfrec.png, id=1070, 682.55pt x 513.92pt>
+File: ./img/../../Image/cuestfrec.png Graphic file (type png)
+
+<use ./img/../../Image/cuestfrec.png>
+Underfull \hbox (badness 10000) in paragraph at lines 255--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--266
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82 <./img/../../Image/paciente-nuevo2.png (PNG copy)>]
+<./img/../../Image/paciente-abrir.png, id=1078, 429.605pt x 353.32pt>
+File: ./img/../../Image/paciente-abrir.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-abrir.png>
+Underfull \hbox (badness 10000) in paragraph at lines 269--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
+
+ []
+
+[83 <./img/../../Image/cuestfrec.png (PNG copy)> <./img/../../Image/paciente-ab
+rir.png (PNG copy)>]
+<./img/../../Image/paciente-eliminar.png, id=1085, 429.605pt x 354.32375pt>
+File: ./img/../../Image/paciente-eliminar.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-eliminar.png>
+Underfull \hbox (badness 10000) in paragraph at lines 284--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--295
+
+ []
+
+File: ./img/../../Image/receta-nueva.png Graphic file (type png)
+<use ./img/../../Image/receta-nueva.png>
+Underfull \hbox (badness 10000) in paragraph at lines 302--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--313
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84 <./img/../../Image/paciente-eliminar.png (PNG copy)>]
+<./img/../../Image/ingrediente-anadir.png, id=1093, 487.8225pt x 485.815pt>
+File: ./img/../../Image/ingrediente-anadir.png Graphic file (type png)
+
+<use ./img/../../Image/ingrediente-anadir.png>
+Underfull \hbox (badness 10000) in paragraph at lines 317--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--328
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+Underfull \hbox (badness 10000) in paragraph at lines 330--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--333
+
+ []
+
+<./img/../../Image/ingrediente-nuevo.png, id=1100, 414.54875pt x 302.12875pt>
+File: ./img/../../Image/ingrediente-nuevo.png Graphic file (type png)
+
+<use ./img/../../Image/ingrediente-nuevo.png>
+Underfull \hbox (badness 10000) in paragraph at lines 334--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--345
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86 <./img/../../Image/ingrediente-anadir.png (PNG copy)>]
+<./img/../../Image/ingrediente-modificar.png, id=1106, 414.54875pt x 303.1325pt
+>
+File: ./img/../../Image/ingrediente-modificar.png Graphic file (type png)
+ <use ./img/../../Image/ingrediente-modificar.png>
+Underfull \hbox (badness 10000) in paragraph at lines 348--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
+
+ []
+
+[87 <./img/../../Image/ingrediente-nuevo.png (PNG copy)> <./img/../../Image/ing
+rediente-modificar.png (PNG copy)>]
+<./img/../../Image/receta-modificar.png, id=1113, 430.60875pt x 353.32pt>
+File: ./img/../../Image/receta-modificar.png Graphic file (type png)
+
+<use ./img/../../Image/receta-modificar.png>
+Underfull \hbox (badness 10000) in paragraph at lines 366--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--377
+
+ []
+
+<./img/../../Image/receta-modificar2.png, id=1114, 716.6775pt x 607.26875pt>
+File: ./img/../../Image/receta-modificar2.png Graphic file (type png)
+
+<use ./img/../../Image/receta-modificar2.png>
+Underfull \hbox (badness 10000) in paragraph at lines 379--389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--389
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88 <./img/../../Image/receta-modificar.png (PNG copy)>]
+<./img/../../Image/receta-eliminar.png, id=1120, 427.5975pt x 351.3125pt>
+File: ./img/../../Image/receta-eliminar.png Graphic file (type png)
+
+<use ./img/../../Image/receta-eliminar.png>
+Underfull \hbox (badness 10000) in paragraph at lines 392--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--403
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--403
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89 <./img/../../Image/receta-modificar2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+<./img/../../Image/acercade.png, id=1126, 537.00626pt x 232.87pt>
+File: ./img/../../Image/acercade.png Graphic file (type png)
+
+<use ./img/../../Image/acercade.png>
+Underfull \hbox (badness 10000) in paragraph at lines 412--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+
+ []
+
+<./img/../../Image/creditos.png, id=1127, 421.575pt x 168.63pt>
+File: ./img/../../Image/creditos.png Graphic file (type png)
+
+<use ./img/../../Image/creditos.png>
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
+
+ []
+
+[90 <./img/../../Image/receta-eliminar.png (PNG copy)> <./img/../../Image/acerc
+ade.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+<./img/../../Image/pestanas.png, id=1136, 898.35625pt x 538.01pt>
+File: ./img/../../Image/pestanas.png Graphic file (type png)
+
+<use ./img/../../Image/pestanas.png> [91 <./img/../../Image/creditos.png (PNG c
+opy)> <./img/../../Image/pestanas.png (PNG copy)>]
+File: ./img/../../Image/paciente-datos.png Graphic file (type png)
+
+<use ./img/../../Image/paciente-datos.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 475--476
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--478
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--478
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+<./img/../../Image/infomed.png, id=1143, 648.4225pt x 598.235pt>
+File: ./img/../../Image/infomed.png Graphic file (type png)
+
+<use ./img/../../Image/infomed.png>
+Underfull \hbox (badness 10000) in paragraph at lines 482--493
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--493
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--493
+
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 496--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--503
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
+
+ []
+
+[93 <./img/../../Image/infomed.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
+
+ []
+
+<./img/../../Image/enfermedad.png, id=1158, 383.4325pt x 386.44376pt>
+File: ./img/../../Image/enfermedad.png Graphic file (type png)
+
+<use ./img/../../Image/enfermedad.png>
+Underfull \hbox (badness 10000) in paragraph at lines 511--522
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--522
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--522
+
+ []
+
+<./img/../../Image/enfermedad-nueva.png, id=1159, 414.54875pt x 351.3125pt>
+File: ./img/../../Image/enfermedad-nueva.png Graphic file (type png)
+
+<use ./img/../../Image/enfermedad-nueva.png>
+Underfull \hbox (badness 10000) in paragraph at lines 525--536
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--536
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--536
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94 <./img/../../Image/enfermedad.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+
+ []
+
+
+<./img/../../Image/enfermedad-nuevoingrd.png, id=1169, 487.8225pt x 394.47375pt
+>
+File: ./img/../../Image/enfermedad-nuevoingrd.png Graphic file (type png)
+ <use ./img/../../Image/enfermedad-nuevoingrd.png>
+Underfull \hbox (badness 10000) in paragraph at lines 540--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--555
+
+ []
+
+[95 <./img/../../Image/enfermedad-nueva.png (PNG copy)> <./img/../../Image/enfe
+rmedad-nuevoingrd.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 556--558
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--558
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--561
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--561
+
+ []
+
+File: ./img/../../Image/paciente-antrop.png Graphic file (type png)
+<use ./img/../../Image/paciente-antrop.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 574--575
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--577
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--577
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+Underfull \hbox (badness 10000) in paragraph at lines 582--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
+
+ []
+
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
+
+ []
+
+
+Overfull \hbox (4.06245pt too wide) in paragraph at lines 594--596
+\T1/cmr/m/n/10.95 Aquí se de-scribirá cualquier tratamien-to de apoyo que se re
+-comiende, in-cluyen-do su posología
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
+
+ []
+
+<./img/../../Image/tratamientoAp-anadir.png, id=1186, 505.89pt x 255.95625pt>
+File: ./img/../../Image/tratamientoAp-anadir.png Graphic file (type png)
+
+<use ./img/../../Image/tratamientoAp-anadir.png>
+Underfull \hbox (badness 10000) in paragraph at lines 597--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
+
+ []
+
+File: ./img/../../Image/paciente-hist.png Graphic file (type png)
+<use ./img/../../Image/paciente-hist.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 624--625
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--627
+
+ []
+
+[98 <./img/../../Image/tratamientoAp-anadir.png (PNG copy)>]
+<./img/../../Image/infogen.png, id=1193, 684.5575pt x 514.92375pt>
+File: ./img/../../Image/infogen.png Graphic file (type png)
+
+<use ./img/../../Image/infogen.png>
+Underfull \hbox (badness 10000) in paragraph at lines 638--649
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--649
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--649
+
+ []
+
+[99] <./img/../../Image/diariodiet.png, id=1200, 650.43pt x 298.11375pt>
+File: ./img/../../Image/diariodiet.png Graphic file (type png)
+
+<use ./img/../../Image/diariodiet.png>
+Underfull \hbox (badness 10000) in paragraph at lines 651--662
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--662
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--662
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
+
+ []
+
+[100 <./img/../../Image/infogen.png (PNG copy)> <./img/../../Image/diariodiet.p
+ng (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--674
+
+ []
+
+<./img/../../Image/recordatorio.png, id=1207, 652.4375pt x 299.1175pt>
+File: ./img/../../Image/recordatorio.png Graphic file (type png)
+
+<use ./img/../../Image/recordatorio.png>
+Underfull \hbox (badness 10000) in paragraph at lines 675--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
+
+ []
+
+[101 <./img/../../Image/recordatorio.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--698
+
+ []
+
+File: ./img/../../Image/cuestfrec.png Graphic file (type png)
+<use ./img/../../Image/cuestfrec.png>
+Underfull \hbox (badness 10000) in paragraph at lines 699--710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--710
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102]
+<../Image/paciente-registro.png, id=1225, 915.42pt x 646.415pt>
+File: ../Image/paciente-registro.png Graphic file (type png)
+
+<use ../Image/paciente-registro.png>
+Overfull \hbox (2.46477pt too wide) in paragraph at lines 723--724
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--726
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--726
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+<./img/../../Image/verrecetas.png, id=1232, 429.605pt x 348.30125pt>
+File: ./img/../../Image/verrecetas.png Graphic file (type png)
+
+<use ./img/../../Image/verrecetas.png>
+Underfull \hbox (badness 10000) in paragraph at lines 735--748
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--748
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--748
+
+ []
+
+[104 <../Image/paciente-registro.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 750--752
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--755
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 753--755
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--757
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--757
+
+ []
+
+) [105 <./img/../../Image/verrecetas.png (PNG copy)>] [106
+
+]
+Cap\'{\i }tulo 8.
+(./contenido/manual_instexp.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 16.
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (19.47484pt too wide) in paragraph at lines 18--20
+[]\T1/cmr/m/it/10.95 PyQt4\T1/cmr/m/n/10.95 . En es-pe-cial python-qt-dev, pyth
+on-qt4-dev, python-qt4 ba-jo ver-siones Lin-ux. Disponible
+ []
+
+[107]) [108]
+Cap\'{\i }tulo 9.
+(./contenido/conclusiones.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+) [109
+
+] [110
+
+] (./contenido/bibliografia.tex
+Overfull \hbox (10.46852pt too wide) in paragraph at lines 29--31
+[]\T1/cmr/m/n/10.95 Larman, Craig. Ap-ply-ing UML and Pat-terns, 3a Edi-ción. P
+ren-tice Hall, 2004. 736p. ISBN:978-
+ []
+
+)
+No file memoria.bbl.
+[111] [112
+
+] (./anexos/general.tex) (./anexos/fdl-1.3.tex [113] [114] [115]
+[116] [117] [118]) [119] (./memoria.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 98 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 14622 strings out of 495061
+ 234783 string characters out of 1182622
+ 310073 words of memory out of 3000000
+ 16908 multiletter control sequences out of 15000+50000
+ 21484 words of font info for 50 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 54i,13n,51p,658b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/nexus/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.6
+00pk> </home/nexus/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk> </hom
+e/nexus/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/nexus/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/nexus/.texmf-var/fon
+ts/pk/ljfour/jknappen/ec/eccc1095.600pk> </home/nexus/.texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1095.600pk> </home/nexus/.texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx1200.600pk> </home/nexus/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488
+.600pk> </home/nexus/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </h
+ome/nexus/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/nexus/.
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1440.600pk> </home/nexus/.texmf-var/f
+onts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/nexus/.texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecrm1440.600pk> </home/nexus/.texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecbx1440.600pk> </home/nexus/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx17
+28.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on memoria.pdf (131 pages, 2379012 bytes).
+PDF statistics:
+ 2001 PDF objects out of 2073 (max. 8388607)
+ 424 named destinations out of 1000 (max. 500000)
+ 935 words of extra memory for PDF output out of 10000 (max. 10000000)
+

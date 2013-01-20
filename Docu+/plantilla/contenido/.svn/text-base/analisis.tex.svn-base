@@ -1,0 +1,31 @@
+% ------------------------------------------------------------------------------
+% Este fichero es parte de la plantilla LaTeX para la realización de Proyectos
+% Final de Grado, protegido bajo los términos de la licencia GFDL.
+% Para más información, la licencia completa viene incluida en el
+% fichero fdl-1.3.tex
+
+% Copyright (C) 2012 SPI-FM. Universidad de Cádiz
+% ------------------------------------------------------------------------------
+
+En esta sección se presenta el catálogo de requisitos del sistema de información. Para ello se detallarán los actores del sistema, los requisitos funcionales, los requisitos de información, los requisitos no funcionales y las reglas de negocio. Luego se describen las diferentes alternativas tecnológicas y el análisis de la brecha entre los requisitos planteados y la solución base seleccionada.
+
+\section{Catálogo de actores} 
+En este apartado se describirán los diferentes roles que juegan los usuarios que interactúan con el sistema. Los actores pueden ser roles de personas físicas, sistemas externos o incluso el tiempo (eventos temporales).
+
+\section{Requisitos funcionales}
+Descripción completa de la funcionalidad que ofrece el sistema. Para ello se emplearan casos de uso como mecanismo para representar las interacciones entre los actores y el sistema bajo estudio. Para cada caso de uso deberá indicarse los actores implicados, las precondiciones y postcondiciones, los pasos que conforman el escenario principal y el conjunto de posibles escenarios alternativos.
+
+\section{Requisitos de información}
+En esta sección se describen los requisitos de gestión de información (datos) que el sistema debe gestionar. Para ello, se desarrollará un diagrama conceptual de clases UML, identificando las clases, atributos, relaciones, restricciones adicionales y reglas de derivación necesarias.
+
+\section{Requisitos no funcionales}
+Descripción de otros requisitos (relacionados con la calidad del software) que el sistema deberá satisfacer: portabilidad, seguridad, auditoría, monitorización, fiabilidad, comunicaciones con sistemas externos, extensibilidad, rendimiento, escalabilidad, estándares de obligado cumplimiento, accesibilidad, usabilidad, aspectos de la interfaz de usuario, utilización de un determinado entorno tecnológico, etc.
+
+\section{Reglas de negocio}
+En el desarrollo del sistema, hay que tener en cuenta las denominadas reglas de negocio, es decir, el conjunto de restricciones, normas o políticas de la organización que deben ser respetadas por el sistema, las cuales suelen ser cambiantes.
+
+\section{Estudio de alternativas tecnológicas}
+En esta sección, se debe ofrecer un estudio del arte de las diferentes alternativas tecnológicas que permitan satisfacer los requerimientos del sistema, para luego seleccionar la herramienta o conjunto de herramientas que utilizaremos como base para el software a desarrollar.
+
+\section{Análisis GAP}
+Una vez seleccionado el software de base, debemos identificar y medir las diferencias entre lo que proporciona este software y los requisitos definidos para el proyecto. El resultado de este análisis permitirá identificar cuáles de éstos requisitos ya están solventados total o parcialmente por el sistema base y cuales tendremos que diseñar e implementar.

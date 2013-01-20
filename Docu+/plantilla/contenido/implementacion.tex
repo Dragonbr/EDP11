@@ -1,0 +1,51 @@
+% ------------------------------------------------------------------------------
+% Este fichero es parte de la plantilla LaTeX para la realización de Proyectos
+% Final de Grado, protegido bajo los términos de la licencia GFDL.
+% Para más información, la licencia completa viene incluida en el
+% fichero fdl-1.3.tex
+
+% Copyright (C) 2012 SPI-FM. Universidad de Cádiz
+% ------------------------------------------------------------------------------
+
+A continuación se detallan algunos aspectos referentes al desarrollo de la aplicación:
+
+\section{Entorno tecnológico}
+Para el desarrollo se ha utilizado las siguientes herramientas:
+\begin{itemize}
+\item \textit{Emacs}: Editor de texto muy potente, usado para generar los archivos \textit{Python}(``.py''). Este IDE abarca cualidades como resaltado de sintaxis, soporte multidocumento, consola integrada, ...
+\item \textit{Python}: Lenguaje de programación utilizado para el desarrollo, en su versión 2.7.1. Junto a \textit{Python} se han utilizado las siguientes bibliotecas:
+\begin{itemize}
+\item \textit{PyQt}: adaptación de la biblioteca gráfica \textit{Qt}, necesario para la interfaz de usuario.
+\item \textit{Relatorio}: Permite generar informes a través de plantillas ``.odt''. \textit{Relatorio} necesita de la biblioteca \textit{OpenOffice-Python} para interactuar con \textit{OpenOffice}.
+\item \textit{Poppler}: en la versión de la biblioteca \textit{popplerqt4}. Utilizada para generar archivos PDFs desde nuestra aplicación.
+\end{itemize}
+\item \textit{Qt4 Designer}: diseñador de interfaces gráficas para \textit{Qt}. Con esta herramienta generamos los archivos ``.ui'', que representan las pantalla y formularios de la aplicación. Posteriormente se usa el comando \textit{pyuic4} que transformará los archivos ``.ui'' en archivos ``.py''.
+\item \textit{Git}: usado para el control de versiones. En este caso haciendo uso de las ventajas de \textit{Git}, obteniendo el control de versiones en local y otro en servidor con las versiones acabadas.
+\end{itemize}
+
+\section{Código fuente}
+Para la implementación del código fuente se ha optado por la siguiente distribución de directorios:
+\begin{itemize}
+\item \textbf{usr/share/edp11}: directorio principal donde se encuentran los archivos principales ``.py'' de la aplicación. Cada archivo representa una clase implicada en la aplicación.
+\item \textbf{edp11/PY\_UIs}: directorio en el que se encuentran todas las transformaciones de los archivos ``.ui'' en ``.py'' de la interfaz gráfica, necesarios para la ejecución de la aplicación. Cada uno de ellos representa una pantalla o formulario de la aplicación.
+\item \textbf{edp11/Docu}: directorio en el que se encuentran las plantillas ``.odt'' necesarias para la generación de los archivos PDFs de la aplicación, así como PDFs pertenecientes a la aplicación siendo estos documentos del dietista que debe proporcionar.
+\end{itemize}
+
+
+\section{Problemas ocurridos durante la implementación}
+A la hora de implementar la aplicación surgieron diversos problemas, causados principalmente por el desconocimiento de las herramientas usadas, así como del lenguaje de programación \textit{Python} (absolutamente algo nuevo para mí). En el caso de \textit{Python}, existe numerosa cantidad de documentación, tanto en su web oficial como en foros y blogs, por lo que acostumbrarse fue cuestión rápida.\\\\
+En el caso de \textit{PyQt}, el aprendizaje resultó más difícil, debido a su escasa documentación. Hubo que recurrir a la documentación de \textit{Qt} así como a foros para solvertar dudas y problemas. \\
+Hubo que declarar nuevos tipos de elementos para un comportamiento de los objetos acorde con lo requerido.\\\\
+Otro caso es la biblioteca \textit{Relatorio}, que para operar con ella había que determinar como formatear los datos de entrada, lo cual fue laborioso.\\\\
+Sin hablar de la biblioteca \textit{Poppler}, para la que la utilización en \textit{Python} debía seguir una forma, y no fue encontrada en ninguna documentación ni foro ni blog, finalmente tomando como referencia la poca documentación oficial, y haciendo un estudio lógico de la utilización se llegó con éxito.
+
+
+
+
+
+
+
+
+
+
+

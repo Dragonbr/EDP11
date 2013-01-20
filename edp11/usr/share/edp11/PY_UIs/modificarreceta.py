@@ -1,0 +1,111 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'UIs/modificarreceta.ui'
+#
+# Created: Sat Nov 12 01:02:43 2011
+#      by: PyQt4 UI code generator 4.7.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+class Ui_DialogMRec(object):
+    def setupUi(self, DialogMRec):
+        DialogMRec.setObjectName("DialogMRec")
+        DialogMRec.setWindowModality(QtCore.Qt.ApplicationModal)
+        DialogMRec.resize(708, 572)
+        DialogMRec.setFocusPolicy(QtCore.Qt.WheelFocus)
+        self.buttonBox = QtGui.QDialogButtonBox(DialogMRec)
+        self.buttonBox.setGeometry(QtCore.QRect(510, 520, 171, 41))
+        self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
+        self.buttonBox.setStandardButtons(QtGui.QDialogButtonBox.Cancel|QtGui.QDialogButtonBox.Ok)
+        self.buttonBox.setObjectName("buttonBox")
+        self.lineEdit = QtGui.QLineEdit(DialogMRec)
+        self.lineEdit.setGeometry(QtCore.QRect(150, 40, 531, 27))
+        self.lineEdit.setObjectName("lineEdit")
+        self.label = QtGui.QLabel(DialogMRec)
+        self.label.setGeometry(QtCore.QRect(50, 45, 48, 17))
+        self.label.setObjectName("label")
+        self.label_2 = QtGui.QLabel(DialogMRec)
+        self.label_2.setGeometry(QtCore.QRect(50, 100, 62, 17))
+        self.label_2.setObjectName("label_2")
+        self.doubleSpinBox = QtGui.QDoubleSpinBox(DialogMRec)
+        self.doubleSpinBox.setGeometry(QtCore.QRect(150, 95, 80, 27))
+        self.doubleSpinBox.setReadOnly(True)
+        self.doubleSpinBox.setMaximum(9999.99)
+        self.doubleSpinBox.setSingleStep(0.01)
+        self.doubleSpinBox.setObjectName("doubleSpinBox")
+        self.label_4 = QtGui.QLabel(DialogMRec)
+        self.label_4.setGeometry(QtCore.QRect(50, 345, 88, 17))
+        self.label_4.setObjectName("label_4")
+        self.textEdit = QtGui.QTextEdit(DialogMRec)
+        self.textEdit.setGeometry(QtCore.QRect(150, 340, 531, 171))
+        self.textEdit.setObjectName("textEdit")
+        self.label_5 = QtGui.QLabel(DialogMRec)
+        self.label_5.setGeometry(QtCore.QRect(50, 155, 92, 17))
+        self.label_5.setObjectName("label_5")
+        self.push_Anadir = QtGui.QPushButton(DialogMRec)
+        self.push_Anadir.setGeometry(QtCore.QRect(327, 280, 71, 22))
+        self.push_Anadir.setObjectName("push_Anadir")
+        self.treeWidget = QtGui.QTreeWidget(DialogMRec)
+        self.treeWidget.setGeometry(QtCore.QRect(150, 150, 531, 120))
+        self.treeWidget.setObjectName("treeWidget")
+        self.treeWidget.header().setDefaultSectionSize(175)
+        self.treeWidget.header().setMinimumSectionSize(175)
+        self.push_Eliminar = QtGui.QPushButton(DialogMRec)
+        self.push_Eliminar.setGeometry(QtCore.QRect(410, 280, 71, 22))
+        self.push_Eliminar.setObjectName("push_Eliminar")
+        self.comboBox = QtGui.QComboBox(DialogMRec)
+        self.comboBox.setGeometry(QtCore.QRect(420, 95, 131, 27))
+        self.comboBox.setObjectName("comboBox")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.label_6 = QtGui.QLabel(DialogMRec)
+        self.label_6.setGeometry(QtCore.QRect(330, 100, 71, 17))
+        self.label_6.setObjectName("label_6")
+
+        self.retranslateUi(DialogMRec)
+        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("accepted()"), DialogMRec.accept)
+        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("rejected()"), DialogMRec.reject)
+        QtCore.QMetaObject.connectSlotsByName(DialogMRec)
+        DialogMRec.setTabOrder(self.lineEdit, self.doubleSpinBox)
+        DialogMRec.setTabOrder(self.doubleSpinBox, self.treeWidget)
+        DialogMRec.setTabOrder(self.treeWidget, self.push_Anadir)
+        DialogMRec.setTabOrder(self.push_Anadir, self.push_Eliminar)
+        DialogMRec.setTabOrder(self.push_Eliminar, self.textEdit)
+        DialogMRec.setTabOrder(self.textEdit, self.comboBox)
+        DialogMRec.setTabOrder(self.comboBox, self.buttonBox)
+
+    def retranslateUi(self, DialogMRec):
+        DialogMRec.setWindowTitle(QtGui.QApplication.translate("DialogMRec", "Modificar Receta", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("DialogMRec", "Título:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("DialogMRec", "Calorías:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_4.setText(QtGui.QApplication.translate("DialogMRec", "Preparación:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_5.setText(QtGui.QApplication.translate("DialogMRec", "Ingredientes:", None, QtGui.QApplication.UnicodeUTF8))
+        self.push_Anadir.setText(QtGui.QApplication.translate("DialogMRec", "Añadir", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidget.headerItem().setText(0, QtGui.QApplication.translate("DialogMRec", "Ingrediente", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidget.headerItem().setText(1, QtGui.QApplication.translate("DialogMRec", "Cantidad", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidget.headerItem().setText(2, QtGui.QApplication.translate("DialogMRec", "Calorías", None, QtGui.QApplication.UnicodeUTF8))
+        self.push_Eliminar.setText(QtGui.QApplication.translate("DialogMRec", "Eliminar", None, QtGui.QApplication.UnicodeUTF8))
+        self.comboBox.setItemText(0, QtGui.QApplication.translate("DialogMRec", "Desayuno", None, QtGui.QApplication.UnicodeUTF8))
+        self.comboBox.setItemText(1, QtGui.QApplication.translate("DialogMRec", "Media Mañana", None, QtGui.QApplication.UnicodeUTF8))
+        self.comboBox.setItemText(2, QtGui.QApplication.translate("DialogMRec", "Almuerzo", None, QtGui.QApplication.UnicodeUTF8))
+        self.comboBox.setItemText(3, QtGui.QApplication.translate("DialogMRec", "Merienda", None, QtGui.QApplication.UnicodeUTF8))
+        self.comboBox.setItemText(4, QtGui.QApplication.translate("DialogMRec", "Cena", None, QtGui.QApplication.UnicodeUTF8))
+        self.comboBox.setItemText(5, QtGui.QApplication.translate("DialogMRec", "Tentempié", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_6.setText(QtGui.QApplication.translate("DialogMRec", "Categoría:", None, QtGui.QApplication.UnicodeUTF8))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    DialogMRec = QtGui.QDialog()
+    ui = Ui_DialogMRec()
+    ui.setupUi(DialogMRec)
+    DialogMRec.show()
+    sys.exit(app.exec_())
+

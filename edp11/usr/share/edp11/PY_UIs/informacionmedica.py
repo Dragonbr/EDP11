@@ -1,0 +1,110 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'UIs/informacionmedica.ui'
+#
+# Created: Fri Jan 20 13:24:17 2012
+#      by: PyQt4 UI code generator 4.7.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+class Ui_Dialog_InfMed(object):
+    def setupUi(self, Dialog_InfMed):
+        Dialog_InfMed.setObjectName("Dialog_InfMed")
+        Dialog_InfMed.setWindowModality(QtCore.Qt.ApplicationModal)
+        Dialog_InfMed.resize(640, 566)
+        self.buttonBox = QtGui.QDialogButtonBox(Dialog_InfMed)
+        self.buttonBox.setGeometry(QtCore.QRect(10, 524, 621, 32))
+        self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
+        self.buttonBox.setStandardButtons(QtGui.QDialogButtonBox.Ok)
+        self.buttonBox.setObjectName("buttonBox")
+        self.pushButton_Anadir = QtGui.QPushButton(Dialog_InfMed)
+        self.pushButton_Anadir.setGeometry(QtCore.QRect(140, 170, 61, 23))
+        self.pushButton_Anadir.setObjectName("pushButton_Anadir")
+        self.pushButton_Eliminar = QtGui.QPushButton(Dialog_InfMed)
+        self.pushButton_Eliminar.setGeometry(QtCore.QRect(220, 170, 71, 23))
+        self.pushButton_Eliminar.setObjectName("pushButton_Eliminar")
+        self.treeWidget = QtGui.QTreeWidget(Dialog_InfMed)
+        self.treeWidget.setGeometry(QtCore.QRect(141, 30, 461, 131))
+        self.treeWidget.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.treeWidget.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAsNeeded)
+        self.treeWidget.setAllColumnsShowFocus(False)
+        self.treeWidget.setObjectName("treeWidget")
+        self.treeWidget.header().setVisible(True)
+        self.treeWidget.header().setCascadingSectionResizes(False)
+        self.treeWidget.header().setDefaultSectionSize(229)
+        self.treeWidget.header().setHighlightSections(False)
+        self.treeWidget.header().setMinimumSectionSize(140)
+        self.treeWidget.header().setSortIndicatorShown(False)
+        self.treeWidget.header().setStretchLastSection(False)
+        self.label = QtGui.QLabel(Dialog_InfMed)
+        self.label.setGeometry(QtCore.QRect(30, 30, 71, 17))
+        self.label.setObjectName("label")
+        self.label_2 = QtGui.QLabel(Dialog_InfMed)
+        self.label_2.setGeometry(QtCore.QRect(30, 220, 86, 17))
+        self.label_2.setObjectName("label_2")
+        self.textEdit = QtGui.QTextEdit(Dialog_InfMed)
+        self.textEdit.setGeometry(QtCore.QRect(140, 220, 461, 78))
+        self.textEdit.setObjectName("textEdit")
+        self.label_3 = QtGui.QLabel(Dialog_InfMed)
+        self.label_3.setGeometry(QtCore.QRect(30, 340, 101, 17))
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtGui.QLabel(Dialog_InfMed)
+        self.label_4.setGeometry(QtCore.QRect(30, 360, 91, 17))
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtGui.QLabel(Dialog_InfMed)
+        self.label_5.setGeometry(QtCore.QRect(30, 240, 106, 17))
+        self.label_5.setObjectName("label_5")
+        self.treeWidgetEP = QtGui.QTreeWidget(Dialog_InfMed)
+        self.treeWidgetEP.setGeometry(QtCore.QRect(140, 340, 461, 101))
+        self.treeWidgetEP.setObjectName("treeWidgetEP")
+        self.pushButton = QtGui.QPushButton(Dialog_InfMed)
+        self.pushButton.setGeometry(QtCore.QRect(504, 170, 98, 23))
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_EliminarEP = QtGui.QPushButton(Dialog_InfMed)
+        self.pushButton_EliminarEP.setGeometry(QtCore.QRect(220, 450, 71, 23))
+        self.pushButton_EliminarEP.setObjectName("pushButton_EliminarEP")
+        self.pushButton_AnadirEP = QtGui.QPushButton(Dialog_InfMed)
+        self.pushButton_AnadirEP.setGeometry(QtCore.QRect(140, 450, 61, 23))
+        self.pushButton_AnadirEP.setObjectName("pushButton_AnadirEP")
+
+        self.retranslateUi(Dialog_InfMed)
+        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("accepted()"), Dialog_InfMed.accept)
+        QtCore.QObject.connect(self.buttonBox, QtCore.SIGNAL("rejected()"), Dialog_InfMed.reject)
+        QtCore.QMetaObject.connectSlotsByName(Dialog_InfMed)
+        Dialog_InfMed.setTabOrder(self.treeWidget, self.pushButton_Anadir)
+        Dialog_InfMed.setTabOrder(self.pushButton_Anadir, self.pushButton_Eliminar)
+        Dialog_InfMed.setTabOrder(self.pushButton_Eliminar, self.pushButton)
+        Dialog_InfMed.setTabOrder(self.pushButton, self.textEdit)
+        Dialog_InfMed.setTabOrder(self.textEdit, self.treeWidgetEP)
+        Dialog_InfMed.setTabOrder(self.treeWidgetEP, self.pushButton_EliminarEP)
+        Dialog_InfMed.setTabOrder(self.pushButton_EliminarEP, self.pushButton_AnadirEP)
+        Dialog_InfMed.setTabOrder(self.pushButton_AnadirEP, self.buttonBox)
+
+    def retranslateUi(self, Dialog_InfMed):
+        Dialog_InfMed.setWindowTitle(QtGui.QApplication.translate("Dialog_InfMed", "Información Médica", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton_Anadir.setText(QtGui.QApplication.translate("Dialog_InfMed", "Añadir", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton_Eliminar.setText(QtGui.QApplication.translate("Dialog_InfMed", "Eliminar", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidget.headerItem().setText(0, QtGui.QApplication.translate("Dialog_InfMed", "Fichero", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidget.headerItem().setText(1, QtGui.QApplication.translate("Dialog_InfMed", "Fecha", None, QtGui.QApplication.UnicodeUTF8))
+        self.label.setText(QtGui.QApplication.translate("Dialog_InfMed", "Analíticas:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_2.setText(QtGui.QApplication.translate("Dialog_InfMed", "Tratamiento", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_3.setText(QtGui.QApplication.translate("Dialog_InfMed", "Enfermedades", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_4.setText(QtGui.QApplication.translate("Dialog_InfMed", "y Patologías:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_5.setText(QtGui.QApplication.translate("Dialog_InfMed", "Farmacológico:", None, QtGui.QApplication.UnicodeUTF8))
+        self.treeWidgetEP.headerItem().setText(0, QtGui.QApplication.translate("Dialog_InfMed", "Nombre", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton.setText(QtGui.QApplication.translate("Dialog_InfMed", "Ver Analítica", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton_EliminarEP.setText(QtGui.QApplication.translate("Dialog_InfMed", "Eliminar", None, QtGui.QApplication.UnicodeUTF8))
+        self.pushButton_AnadirEP.setText(QtGui.QApplication.translate("Dialog_InfMed", "Añadir", None, QtGui.QApplication.UnicodeUTF8))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    Dialog_InfMed = QtGui.QDialog()
+    ui = Ui_Dialog_InfMed()
+    ui.setupUi(Dialog_InfMed)
+    Dialog_InfMed.show()
+    sys.exit(app.exec_())
+

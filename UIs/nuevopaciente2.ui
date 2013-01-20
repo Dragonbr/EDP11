@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogNuevoP2</class>
+ <widget class="QDialog" name="DialogNuevoP2">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::WheelFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Nuevo Paciente</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>352</y>
+     <width>621</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_cint_cm">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>105</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cm.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_cint">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>105</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cintura:</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpin_Cad">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>140</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>999.990000000000009</double>
+   </property>
+   <property name="singleStep">
+    <double>0.010000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_cader">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>146</y>
+     <width>53</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cadera:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pob_kg">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>65</y>
+     <width>21</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kg.</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpin_Cint">
+   <property name="geometry">
+    <rect>
+     <x>445</x>
+     <y>100</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>999.990000000000009</double>
+   </property>
+   <property name="singleStep">
+    <double>0.010000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_complex">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Complexión:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_peso">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>65</y>
+     <width>40</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Peso:</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpin_Peso">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>60</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>999.990000000000009</double>
+   </property>
+   <property name="singleStep">
+    <double>0.010000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tr_cm">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>146</y>
+     <width>23</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cm.</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="combo_Activ">
+   <property name="geometry">
+    <rect>
+     <x>445</x>
+     <y>195</y>
+     <width>101</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Ligera</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Moderada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Intensa</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpin_Tricip">
+   <property name="geometry">
+    <rect>
+     <x>445</x>
+     <y>140</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>999.990000000000009</double>
+   </property>
+   <property name="singleStep">
+    <double>0.010000000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpin_Alt">
+   <property name="geometry">
+    <rect>
+     <x>119</x>
+     <y>100</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>999.990000000000009</double>
+   </property>
+   <property name="singleStep">
+    <double>0.010000000000000</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpin_POb">
+   <property name="geometry">
+    <rect>
+     <x>445</x>
+     <y>60</y>
+     <width>71</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <double>999.990000000000009</double>
+   </property>
+   <property name="singleStep">
+    <double>0.010000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_altura">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>105</y>
+     <width>47</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Altura:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pob">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>65</y>
+     <width>62</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Objetivo:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_peso_kg">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>65</y>
+     <width>21</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kg.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_tricip">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>146</y>
+     <width>105</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pliegue Tricipal:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_alt_cm">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>105</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cm.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_cad_cm">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>146</y>
+     <width>22</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>cm.</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="combo_Complex">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>195</y>
+     <width>89</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Delgada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Media</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ancha</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_activ">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>200</y>
+     <width>69</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Actividad:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Record">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>280</y>
+     <width>131</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Recordatorio 24 h.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_DiDiet">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>280</y>
+     <width>114</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Diario Dietético</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Cuest">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>280</y>
+     <width>191</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cuestionario de Frecuencia</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>doubleSpin_Peso</tabstop>
+  <tabstop>doubleSpin_POb</tabstop>
+  <tabstop>doubleSpin_Alt</tabstop>
+  <tabstop>doubleSpin_Cint</tabstop>
+  <tabstop>doubleSpin_Cad</tabstop>
+  <tabstop>doubleSpin_Tricip</tabstop>
+  <tabstop>combo_Complex</tabstop>
+  <tabstop>combo_Activ</tabstop>
+  <tabstop>pushButton_DiDiet</tabstop>
+  <tabstop>pushButton_Record</tabstop>
+  <tabstop>pushButton_Cuest</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>DialogNuevoP2</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>DialogNuevoP2</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

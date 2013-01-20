@@ -1,0 +1,9 @@
+Package: edp11
+Version: 0.1
+Section: office
+Maintainer: Manuel González <gonzalezperezmanuel@gmail.com>
+Architecture: all
+Depends: python, python-qt-dev, python-qt4-dev, python-qt4, libpoppler-qt4-dev, poppler-utils, libpoppler-dev, python-poppler-qt4, python-relatorio, python-yaml, python-pycha
+Description: Estudio Dietetico Programado 2011 application
+ EDP11 is an office application development for nutritionists
+ who can't waste time.

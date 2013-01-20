@@ -1,0 +1,60 @@
+% ------------------------------------------------------------------------------
+% Este fichero es parte de la plantilla LaTeX para la realización de Proyectos
+% Final de Grado, protegido bajo los términos de la licencia GFDL.
+% Para más información, la licencia completa viene incluida en el
+% fichero fdl-1.3.tex
+
+% Copyright (C) 2012 SPI-FM. Universidad de Cádiz
+% ------------------------------------------------------------------------------
+
+Para comprobar el correcto funcionamiento de la aplicación, tanto de la gestión de datos como la ejecución correcta, se ha realizado una serie de pruebas.\\
+Las pruebas realizadas se han llevado a cabo manualmente. A continuación se explicarán más en detalle la forma de realizar las distintas pruebas.\\
+
+\section{Pruebas de caja negra}
+
+Para las pruebas de caja negra, realizamos las pruebas independientes y las pruebas sobre subsistemas.
+
+\subsection{Independientes}
+Se llevaron a cabo pruebas de caja negra sobre aquellos objetos que interactúan directamente sobre la base de datos y son independientes de otros objetos. En este tipo de pruebas no se tienen en cuenta la implementación, sino los datos de entrada y la salida que se produce.\\\\
+Se observaron los valores recogidos del módulo que estabamos probando, antes de su interactuación con la base de datos, para ello, mediante la consola e impresiones de los valores recogidos se verificaba el correcto funcionamiento, posteriormente se corroboraba que los datos habían actuado de forma correcta en la base de datos, a través del \textit{SQLite Manager}, plugin para \textit{Firefox}, que facilita la consulta de la base de datos de manera más visual.
+
+\subsection{Sobre subsistemas}
+Al igual que con los objetos o módulos independientes, se realizaron pruebas de caja negra sobre aquellos subsistemas para comprobar el correcto funcionamiento. Este tipo de prueba nos permite comprobar si hay buena comunicación entre los elementos que forman el subsistema.\\\\
+Primeramente se observaba que los botones e interactuaciones del módulo en cuestión funcionaban correctamente, comprobando que los campos se comportaban de forma correcta, así como se accedía a las ventanas de forma correcta a través de los botones correspondientes. Posteriormente mediante la consola nuevamente se imprimieron los valores de referencia, tales como las variables de sesión de dietista y paciente de las clases \textit{Dietista} y \textit{Paciente} respectivamente, que mantienen una jerarquía en la aplicación y un orden para la comprobación de acceso a datos del usuario.
+
+\section{Pruebas de caja blanca}
+Son pruebas dedicadas prácticamente en su totalidad a recorrer todas las posibles opciones o caminos que forman un proceso, con el fin de asegurarnos que todas las posibles opciones funcionan correctamente.\\
+A cada incremento de la aplicación, se probaba nuevamente de forma manual que se mantenía el funcionamiento correcto, accediento a todas las ventanas y verificando todos los campos de los distintos módulos a los que se accedía, recorriendo en cada caso cada una de las posibles acciones que se podían realizar.\\\\
+A medida que se implementaban nuevas funcionalidades en los distintos incrementos, en el caso de que interactuara con la base de datos se probaba primero en modo consola la órden para posteriormente integrarla en el código. El objetivo principal era comprobar el correcto tratamiento de la información, tanto en la obtención de datos como en almacenamiento de los mismos.\\
+Cuando se finalizó la aplicación se probó nuevamente toda la interacción entre los módulos.
+
+\section{Pruebas de sistema}
+Se trata de ver la interacción correcta entre los distintos subsistemas que componen la aplicación.\\
+Al igual que las pruebas de caja negra sobre subsistemas, se corroboró que todos los botones funcionaban a la perfección al igual que todos los campos se comportaban de forma correcta.\\\\ 
+Las pruebas se realizaron sobre el sistema operativo \textit{Linux}, en sus distribuciones \textit{Ubuntu 10.10}, \textit{Ubuntu 11.04} y \textit{Ubuntu 12.04} sin ningún tipo de problema.\\
+En este caso se realizó sobre la aplicación finalizada, comprobando el correcto funcionamiento e interactuación entre los subsistemas de la aplicación.\\\\
+Se comenzó probando la gestión de dietistas y recetas, ya que son clases independientes. Esta gestión incluye altas, eliminaciones y modificaciones sobre los datos introducidos.\\
+Posteriormente se comprobó la gestión de pacientes. Se comprobó, que la comunicación con la gestión de dietistas
+era correcta.\\\\
+Seguidamente se comprobó todos los casos referentes a la información del paciente; gestión de enfermedades, gestión de diarios dietéticos, recordatorios, información general, preferencias y semanarios. En esta parte se comprobó la creación de objetos y la comunicación e integración con la base de datos.\\
+También se comprobaron nuevamente todos y cada uno de los elementos que componen la aplicación, botones, menús desplegables, pestañas, enlace entre ventanas, etc.
+
+\section{Pruebas sobre la interfaz}
+
+Para las pruebas sobre la interfaz, realizamos las pruebas de limitación en el tipo de campo, limitación en la longitud de los campos y limitación con respecto a campos vacíos.
+
+\subsection{Limitación en el tipo de campo}
+Se trata de limitar los caracteres introducidos por el usuario en un campo concreto. Por ejemplo, en el caso de teléfono introducir dígitos unicamente, el DNI sólo se permiten una serie de dígitos y una letra.\\\\
+Se introdujeron manualmente todos los posibles casos que pudieran errar en la aplicación, contemplando que no hay ningún fallo en los tipos de campo.
+
+\subsection{Limitación en la longitud de los campos}
+Algunos campos tienen un número finito de dígitos o caracteres, por lo que también se comprueba que el usuario no introduce ni más ni menos valores de los esperados.\\\\
+Debido a que la aplicación se realizó mediante el programa \textit{Qt4 Designer}, ya se especifica sobre éste la limitación sobre la longitud. Posteriormente fue probado manualmente para verificar el buen funcionamiento del diseño y de la aplicación.
+
+\subsection{Limitación con respecto a campos vacíos}
+Como algunos campos de la base de datos no aceptan valores nulos, en todos aquellos campos que sea necesario se comprueba que el valor no sea nulo.\\\\
+Nuevamente se realizaron las pruebas manualmente, dejando a propósito campos vacíos para corroborar que se llevaba un buen control sobre ello, pudiendo observar el funcionamiento correcto, dando el aviso en todos los casos que son necesarios que no sean vacíos.
+
+\section{Pruebas de aceptación}
+Estas pruebas se han realizado por parte del cliente final, con la puesta en funcionamiento en fase de prueba de la aplicación, una vez comprobado su correcto funcionamiento mediante las pruebas anteriores.\\\\
+Se realizaron en cada incremento, corroborando que el cliente final le satisfacía en cada uno de ellos. Finalmente, después de la última entrega, el cliente final ha empezado con la utilización de la aplicación, totalmente satisfecho con el funcionamiento, el diseño y el manejo de la aplicación.

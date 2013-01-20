@@ -1,0 +1,15 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=EDP11
+Version=0.1
+Comment=Application developed for Nutritionits
+GenericName=Estudio Dietetico Programado 2011
+Terminal=false
+Icon=edp11-icon.png
+Type=Application
+Exec=python /usr/share/edp11/mainmenu.py
+Categories=Office;
+Name[es_ES]=EDP11
+GenericName[es_ES]=Estudio Dietético Programado 2011
+Comment[es_ES]=Aplicación desarrollada para dietistas

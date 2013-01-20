@@ -1,0 +1,2908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>908</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Estudio Dietético Programado 2011</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>28</y>
+      <width>888</width>
+      <height>530</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_DatosPers">
+     <attribute name="title">
+      <string>Datos Personales</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_InfMed">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>300</y>
+        <width>141</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Información Médica</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_nom">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>68</y>
+        <width>62</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nombre :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Nom">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>64</y>
+        <width>136</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_apell">
+      <property name="geometry">
+       <rect>
+        <x>373</x>
+        <y>68</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Apellidos :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Apell">
+      <property name="geometry">
+       <rect>
+        <x>453</x>
+        <y>64</y>
+        <width>211</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_edad">
+      <property name="geometry">
+       <rect>
+        <x>373</x>
+        <y>110</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Edad :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Edad">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>453</x>
+        <y>105</y>
+        <width>34</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_sexo">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>32</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sexo :</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="combo_FM">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>31</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <item>
+       <property name="text">
+        <string>F</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QDateTimeEdit" name="date_FNac">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>105</y>
+        <width>115</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="date">
+       <date>
+        <year>1950</year>
+        <month>1</month>
+        <day>1</day>
+       </date>
+      </property>
+      <property name="displayFormat">
+       <string>dd/MM/yyyy</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_FNac">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>110</y>
+        <width>118</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Fch. Nacimiento :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_dni">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>150</y>
+        <width>47</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>D.N.I. :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Dni">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>145</y>
+        <width>101</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_dir">
+      <property name="geometry">
+       <rect>
+        <x>373</x>
+        <y>150</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Dirección:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Dir">
+      <property name="geometry">
+       <rect>
+        <x>453</x>
+        <y>145</y>
+        <width>380</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_prof">
+      <property name="geometry">
+       <rect>
+        <x>373</x>
+        <y>190</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Profesión :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Prof">
+      <property name="geometry">
+       <rect>
+        <x>453</x>
+        <y>185</y>
+        <width>380</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_tlf">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>190</y>
+        <width>71</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Teléfono :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Tlf">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>185</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>112</y>
+        <width>35</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>años</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_EstAntr">
+     <attribute name="title">
+      <string>Estudio Antropométrico</string>
+     </attribute>
+     <widget class="QGroupBox" name="group_Antr">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>412</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>Antropometría</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <widget class="QLabel" name="label_peso">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>49</y>
+         <width>40</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Peso:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_peso_kg">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>49</y>
+         <width>21</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kg.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_altura">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>79</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Altura:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_alt_cm">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>22</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cm.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_imc">
+       <property name="geometry">
+        <rect>
+         <x>224</x>
+         <y>49</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>I.M.C. :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_pob">
+       <property name="geometry">
+        <rect>
+         <x>224</x>
+         <y>79</y>
+         <width>62</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Objetivo:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_porc">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>49</y>
+         <width>16</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>%</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_pob_kg">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>79</y>
+         <width>21</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kg.</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_Peso">
+       <property name="geometry">
+        <rect>
+         <x>78</x>
+         <y>44</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_Alt">
+       <property name="geometry">
+        <rect>
+         <x>78</x>
+         <y>74</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="decimals">
+        <number>0</number>
+       </property>
+       <property name="maximum">
+        <double>999.000000000000000</double>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_IMC">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>44</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_POb">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>74</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_complex">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>179</y>
+         <width>91</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Complexión:</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_Complex">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>175</y>
+         <width>89</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Delgada</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Media</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ancha</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_cint">
+       <property name="geometry">
+        <rect>
+         <x>224</x>
+         <y>110</y>
+         <width>54</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cintura:</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_Cad">
+       <property name="geometry">
+        <rect>
+         <x>78</x>
+         <y>104</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cader">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>110</y>
+         <width>53</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cadera:</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_Cint">
+       <property name="geometry">
+        <rect>
+         <x>289</x>
+         <y>104</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_tricip">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>144</y>
+         <width>118</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pliegue Tricipital:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cad_cm">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>110</y>
+         <width>22</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cm.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cint_cm">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>110</y>
+         <width>22</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cm.</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_Tricip">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>140</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_pideal">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>216</y>
+         <width>71</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Peso ideal:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_PIdeal">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>210</y>
+         <width>89</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_tr_cm">
+       <property name="geometry">
+        <rect>
+         <x>232</x>
+         <y>144</y>
+         <width>23</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cm.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_pesoi_kg">
+       <property name="geometry">
+        <rect>
+         <x>255</x>
+         <y>216</y>
+         <width>21</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kg.</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_Grado">
+       <property name="geometry">
+        <rect>
+         <x>384</x>
+         <y>48</y>
+         <width>25</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">_</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_PMG">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>280</y>
+         <width>158</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pérdida Materia Grasa:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_PL">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>310</y>
+         <width>122</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pérdida Líquidos:</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_PMG">
+       <property name="geometry">
+        <rect>
+         <x>229</x>
+         <y>275</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_porc_2">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>280</y>
+         <width>16</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>%</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_PL">
+       <property name="geometry">
+        <rect>
+         <x>229</x>
+         <y>305</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_porc_3">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>310</y>
+         <width>16</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>%</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_PPac">
+       <property name="geometry">
+        <rect>
+         <x>24</x>
+         <y>248</y>
+         <width>96</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Peso Pactado:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ppac_kg">
+       <property name="geometry">
+        <rect>
+         <x>231</x>
+         <y>247</y>
+         <width>21</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kg.</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_PPac">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>242</y>
+         <width>64</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="maximum">
+        <double>999.990000000000009</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+     </widget>
+     <widget class="Line" name="line_vert">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>0</y>
+        <width>5</width>
+        <height>347</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="group_NecEnerg">
+      <property name="geometry">
+       <rect>
+        <x>459</x>
+        <y>0</y>
+        <width>411</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Necesidades Energéticas</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <widget class="QLabel" name="label_mb">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>131</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Metabolismo Basal:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_activ">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>69</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Actividad:</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_Activ">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>82</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Ligera</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Moderada</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Intensa</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_increm">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>171</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Incremento por Actividad:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_reduc">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>170</y>
+         <width>151</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Reducción según Edad:</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_MB">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>45</y>
+         <width>81</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>9999.989999999999782</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_Increm">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>125</y>
+         <width>81</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>9999.989999999999782</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_Reduc">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>166</y>
+         <width>81</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>9999.989999999999782</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_et">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>210</y>
+         <width>91</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Energía Total:</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpin_ET">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>206</y>
+         <width>81</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="maximum">
+        <double>9999.989999999999782</double>
+       </property>
+       <property name="singleStep">
+        <double>0.010000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mb_kc">
+       <property name="geometry">
+        <rect>
+         <x>315</x>
+         <y>50</y>
+         <width>35</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kcal.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_incr_kc">
+       <property name="geometry">
+        <rect>
+         <x>315</x>
+         <y>130</y>
+         <width>35</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kcal.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_reduc_kc">
+       <property name="geometry">
+        <rect>
+         <x>315</x>
+         <y>170</y>
+         <width>35</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kcal.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_et_kc">
+       <property name="geometry">
+        <rect>
+         <x>315</x>
+         <y>210</y>
+         <width>35</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kcal.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ng">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>141</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Necesidad Glucídica:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_nl">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>284</y>
+         <width>141</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Necesidad Lipídica:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_np">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>316</y>
+         <width>141</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Necesidad Proteica:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_NG">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>245</y>
+         <width>140</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_NL">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>280</y>
+         <width>140</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_NP">
+       <property name="geometry">
+        <rect>
+         <x>223</x>
+         <y>314</y>
+         <width>140</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ng_kc">
+       <property name="geometry">
+        <rect>
+         <x>368</x>
+         <y>250</y>
+         <width>35</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kcal.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_nl_kc">
+       <property name="geometry">
+        <rect>
+         <x>368</x>
+         <y>284</y>
+         <width>35</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kcal.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_np_kc">
+       <property name="geometry">
+        <rect>
+         <x>368</x>
+         <y>320</y>
+         <width>35</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Kcal.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="Line" name="line_hor">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>881</width>
+        <height>5</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="group_Tratam">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>360</y>
+        <width>868</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Tratamiento de Apoyo</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <widget class="QTreeWidget" name="treeWidget_tratam">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>25</y>
+         <width>778</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="textElideMode">
+        <enum>Qt::ElideRight</enum>
+       </property>
+       <property name="uniformRowHeights">
+        <bool>false</bool>
+       </property>
+       <attribute name="headerCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="headerDefaultSectionSize">
+        <number>194</number>
+       </attribute>
+       <attribute name="headerHighlightSections">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="headerMinimumSectionSize">
+        <number>20</number>
+       </attribute>
+       <attribute name="headerShowSortIndicator" stdset="0">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="headerStretchLastSection">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Fecha</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Tratamiento</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Posología</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Observaciones</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Anadir">
+       <property name="geometry">
+        <rect>
+         <x>801</x>
+         <y>60</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Añadir</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Elim">
+       <property name="geometry">
+        <rect>
+         <x>797</x>
+         <y>90</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_HistDiet">
+     <attribute name="title">
+      <string>Historia Dietética</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_DiDiet">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>114</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Diario Dietético</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Record">
+      <property name="geometry">
+       <rect>
+        <x>452</x>
+        <y>20</y>
+        <width>131</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Recordatorio 24 h.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Cuest">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>20</y>
+        <width>191</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cuestionario de Frecuencia</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_InfG">
+      <property name="geometry">
+       <rect>
+        <x>31</x>
+        <y>20</y>
+        <width>154</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Información General</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_RegDiet">
+     <attribute name="title">
+      <string>Registro Dietético</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nº Ingestas:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>8</y>
+        <width>50</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>30</y>
+        <width>860</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_4">
+       <widget class="QLineEdit" name="lineEdit_6_4">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>130</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_1">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_2">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6_1">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>4</x>
+          <y>16</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kcal./%</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_5">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>160</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_3">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>100</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_7">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>220</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_6">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>190</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_8">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>220</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_9">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>220</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_10">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>220</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_11">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>220</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_12">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>670</x>
+          <y>220</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6_13">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>220</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="push_Kcal_6">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>225</y>
+          <width>71</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kcal./día:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QLineEdit" name="lineEdit_5_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>130</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5_1">
+        <property name="geometry">
+         <rect>
+          <x>4</x>
+          <y>16</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kcal./%</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>160</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>100</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_6">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_7">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_8">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_9">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_10">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_11">
+        <property name="geometry">
+         <rect>
+          <x>670</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5_12">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="push_Kcal_5">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>205</y>
+          <width>71</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kcal./día:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLineEdit" name="lineEdit_4_1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>100</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4_1">
+        <property name="geometry">
+         <rect>
+          <x>14</x>
+          <y>46</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kcal./%</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_5">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>160</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_6">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_7">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_8">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_9">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_10">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4_11">
+        <property name="geometry">
+         <rect>
+          <x>750</x>
+          <y>200</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="push_Kcal_4">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>205</y>
+          <width>71</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kcal./día:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page">
+       <widget class="QLineEdit" name="lineEdit_3_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>140</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>41</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3_1">
+        <property name="geometry">
+         <rect>
+          <x>14</x>
+          <y>56</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kcal./%</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_4">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_5">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_6">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_7">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_8">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_9">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3_10">
+        <property name="geometry">
+         <rect>
+          <x>750</x>
+          <y>190</y>
+          <width>81</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="push_Kcal_3">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>195</y>
+          <width>71</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kcal./día:</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>280</y>
+        <width>860</width>
+        <height>216</height>
+       </rect>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="dragEnabled">
+       <bool>true</bool>
+      </property>
+      <property name="dragDropOverwriteMode">
+       <bool>true</bool>
+      </property>
+      <property name="dragDropMode">
+       <enum>QAbstractItemView::DragOnly</enum>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectItems</enum>
+      </property>
+      <property name="indentation">
+       <number>20</number>
+      </property>
+      <attribute name="headerDefaultSectionSize">
+       <number>429</number>
+      </attribute>
+      <attribute name="headerHighlightSections">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="headerMinimumSectionSize">
+       <number>230</number>
+      </attribute>
+      <attribute name="headerStretchLastSection">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Recetas</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Calorías</string>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>Desayuno</string>
+       </property>
+       <property name="flags">
+        <set>ItemIsUserCheckable|ItemIsEnabled</set>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Media Mañana</string>
+       </property>
+       <property name="flags">
+        <set>ItemIsUserCheckable|ItemIsEnabled</set>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Almuerzo</string>
+       </property>
+       <property name="flags">
+        <set>ItemIsUserCheckable|ItemIsEnabled</set>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Merienda</string>
+       </property>
+       <property name="flags">
+        <set>ItemIsUserCheckable|ItemIsEnabled</set>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Cena</string>
+       </property>
+       <property name="flags">
+        <set>ItemIsUserCheckable|ItemIsEnabled</set>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tentempié</string>
+       </property>
+       <property name="flags">
+        <set>ItemIsUserCheckable|ItemIsEnabled</set>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="push_VerRecetas">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>4</y>
+        <width>98</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ver Recetas</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>872</x>
+      <y>3</y>
+      <width>26</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>!!</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>3</y>
+      <width>260</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>3</y>
+      <width>30</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>8</y>
+      <width>35</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>años</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>753</x>
+      <y>8</y>
+      <width>62</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Objetivo:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>819</x>
+      <y>3</y>
+      <width>49</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>698</x>
+      <y>3</y>
+      <width>49</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>611</x>
+      <y>8</y>
+      <width>82</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Peso Actual:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>908</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionDietista"/>
+    <addaction name="actionCerrar_Perfil"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="actionImprimir"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuPacientes">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Paciente</string>
+    </property>
+    <addaction name="actionNuevo_Paciente"/>
+    <addaction name="actionAbrir_Paciente"/>
+    <addaction name="actionCerrar_Paciente"/>
+    <addaction name="actionEliminar_Paciente"/>
+   </widget>
+   <widget class="QMenu" name="menuRecetas">
+    <property name="title">
+     <string>Recetas</string>
+    </property>
+    <addaction name="actionNueva_Receta"/>
+    <addaction name="actionEditar_Receta"/>
+    <addaction name="actionEliminar_Receta"/>
+   </widget>
+   <widget class="QMenu" name="menuAcerca_de">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionManual"/>
+    <addaction name="actionAcerca_de"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuPacientes"/>
+   <addaction name="menuRecetas"/>
+   <addaction name="menuAcerca_de"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionDietista">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Abrir Perfil Dietista</string>
+   </property>
+  </action>
+  <action name="actionNuevo_Paciente">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Nuevo Paciente</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Paciente">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Abrir Paciente</string>
+   </property>
+  </action>
+  <action name="actionNueva_Receta">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Nueva Receta</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionEditar_Receta">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Editar Receta</string>
+   </property>
+  </action>
+  <action name="actionManual">
+   <property name="text">
+    <string>Manual</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="text">
+    <string>Acerca de</string>
+   </property>
+  </action>
+  <action name="actionCerrar_Paciente">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Cerrar Paciente</string>
+   </property>
+  </action>
+  <action name="actionEliminar_Paciente">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Eliminar Paciente</string>
+   </property>
+  </action>
+  <action name="actionCerrar_Perfil">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Cerrar Perfil</string>
+   </property>
+  </action>
+  <action name="actionImprimir">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Imprimir</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionEliminar_Receta">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Eliminar Receta</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>combo_FM</tabstop>
+  <tabstop>lineEdit_Nom</tabstop>
+  <tabstop>lineEdit_Apell</tabstop>
+  <tabstop>date_FNac</tabstop>
+  <tabstop>lineEdit_Edad</tabstop>
+  <tabstop>lineEdit_Dni</tabstop>
+  <tabstop>lineEdit_Dir</tabstop>
+  <tabstop>lineEdit_Prof</tabstop>
+  <tabstop>lineEdit_Tlf</tabstop>
+  <tabstop>pushButton_InfMed</tabstop>
+  <tabstop>doubleSpin_Peso</tabstop>
+  <tabstop>doubleSpin_IMC</tabstop>
+  <tabstop>toolButton_Grado</tabstop>
+  <tabstop>doubleSpin_Alt</tabstop>
+  <tabstop>doubleSpin_POb</tabstop>
+  <tabstop>doubleSpin_Cad</tabstop>
+  <tabstop>doubleSpin_Cint</tabstop>
+  <tabstop>doubleSpin_Tricip</tabstop>
+  <tabstop>combo_Complex</tabstop>
+  <tabstop>lineEdit_PIdeal</tabstop>
+  <tabstop>doubleSpin_PPac</tabstop>
+  <tabstop>doubleSpin_PMG</tabstop>
+  <tabstop>doubleSpin_PL</tabstop>
+  <tabstop>doubleSpin_MB</tabstop>
+  <tabstop>combo_Activ</tabstop>
+  <tabstop>doubleSpin_Increm</tabstop>
+  <tabstop>doubleSpin_Reduc</tabstop>
+  <tabstop>doubleSpin_ET</tabstop>
+  <tabstop>lineEdit_NG</tabstop>
+  <tabstop>lineEdit_NL</tabstop>
+  <tabstop>lineEdit_NP</tabstop>
+  <tabstop>treeWidget_tratam</tabstop>
+  <tabstop>pushButton_Anadir</tabstop>
+  <tabstop>pushButton_Elim</tabstop>
+  <tabstop>pushButton_InfG</tabstop>
+  <tabstop>pushButton_DiDiet</tabstop>
+  <tabstop>pushButton_Record</tabstop>
+  <tabstop>pushButton_Cuest</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>lineEdit_6_1</tabstop>
+  <tabstop>lineEdit_6_2</tabstop>
+  <tabstop>lineEdit_6_3</tabstop>
+  <tabstop>lineEdit_6_4</tabstop>
+  <tabstop>lineEdit_6_5</tabstop>
+  <tabstop>lineEdit_6_6</tabstop>
+  <tabstop>lineEdit_6_7</tabstop>
+  <tabstop>lineEdit_6_8</tabstop>
+  <tabstop>lineEdit_6_9</tabstop>
+  <tabstop>lineEdit_6_10</tabstop>
+  <tabstop>lineEdit_6_11</tabstop>
+  <tabstop>lineEdit_6_12</tabstop>
+  <tabstop>lineEdit_6_13</tabstop>
+  <tabstop>lineEdit_5_1</tabstop>
+  <tabstop>lineEdit_5_2</tabstop>
+  <tabstop>lineEdit_5_3</tabstop>
+  <tabstop>lineEdit_5_4</tabstop>
+  <tabstop>lineEdit_5_5</tabstop>
+  <tabstop>lineEdit_5_6</tabstop>
+  <tabstop>lineEdit_5_7</tabstop>
+  <tabstop>lineEdit_5_8</tabstop>
+  <tabstop>lineEdit_5_9</tabstop>
+  <tabstop>lineEdit_5_10</tabstop>
+  <tabstop>lineEdit_5_11</tabstop>
+  <tabstop>lineEdit_5_12</tabstop>
+  <tabstop>lineEdit_4_1</tabstop>
+  <tabstop>lineEdit_4_2</tabstop>
+  <tabstop>lineEdit_4_5</tabstop>
+  <tabstop>lineEdit_4_3</tabstop>
+  <tabstop>lineEdit_4_4</tabstop>
+  <tabstop>lineEdit_4_6</tabstop>
+  <tabstop>lineEdit_4_7</tabstop>
+  <tabstop>lineEdit_4_8</tabstop>
+  <tabstop>lineEdit_4_9</tabstop>
+  <tabstop>lineEdit_4_10</tabstop>
+  <tabstop>lineEdit_4_11</tabstop>
+  <tabstop>lineEdit_3_1</tabstop>
+  <tabstop>lineEdit_3_2</tabstop>
+  <tabstop>lineEdit_3_3</tabstop>
+  <tabstop>lineEdit_3_4</tabstop>
+  <tabstop>lineEdit_3_5</tabstop>
+  <tabstop>lineEdit_3_6</tabstop>
+  <tabstop>lineEdit_3_7</tabstop>
+  <tabstop>lineEdit_3_8</tabstop>
+  <tabstop>lineEdit_3_9</tabstop>
+  <tabstop>lineEdit_3_10</tabstop>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>lineEdit_4</tabstop>
+  <tabstop>lineEdit_3</tabstop>
+  <tabstop>toolButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionSalir</sender>
+   <signal>activated()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>429</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>stackedWidget</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>155</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>855</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_Edad</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>lineEdit_2</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>480</x>
+     <y>201</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>303</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpin_POb</sender>
+   <signal>valueChanged(QString)</signal>
+   <receiver>lineEdit_3</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>358</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>827</x>
+     <y>38</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpin_Peso</sender>
+   <signal>valueChanged(QString)</signal>
+   <receiver>lineEdit_4</receiver>
+   <slot>setText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>727</x>
+     <y>36</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

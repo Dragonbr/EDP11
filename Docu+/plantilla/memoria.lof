@@ -1,0 +1,91 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de Gantt: Fase de Inicio}}{8}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama de Gantt: Fase de Desarrollo}}{8}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagrama de Gantt: Fase de Documentaci\IeC {\'o}n}}{9}{figure.2.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de caso de uso: Gesti\IeC {\'o}n de dietistas}}{16}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de secuencia: Nuevo Dietista}}{17}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de secuencia: Abrir Perfil Dietista}}{18}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de secuencia: Cerrar Perfil Dietista}}{19}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagrama de secuencia: Eliminar Dietista}}{20}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama de caso de uso: Gesti\IeC {\'o}n de pacientes}}{22}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de secuencia: Nuevo Paciente}}{23}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de secuencia: Abrir Perfil Paciente}}{24}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de secuencia: Editar Datos Paciente}}{25}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagrama de secuencia: Cerrar Perfil Paciente}}{27}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de secuencia: Eliminar Paciente}}{28}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de secuencia: A\IeC {\~n}adir Informaci\IeC {\'o}n M\IeC {\'e}dica}}{29}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de secuencia: Modificar Informaci\IeC {\'o}n M\IeC {\'e}dica}}{30}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagrama de secuencia: A\IeC {\~n}adir Informaci\IeC {\'o}n General}}{31}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagrama de secuencia: A\IeC {\~n}adir Diario Diet\IeC {\'e}tico}}{32}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Diagrama de secuencia: Eliminar Diario Diet\IeC {\'e}tico}}{33}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Diagrama de secuencia: A\IeC {\~n}adir Recordatorio 24h}}{34}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Diagrama de secuencia: Eliminar Recordatorio 24h.}}{35}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Diagrama de secuencia: A\IeC {\~n}adir Frecuencia de Ingesta}}{36}{figure.3.19}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Diagrama de secuencia: A\IeC {\~n}adir Receta a Semanario}}{37}{figure.3.20}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Diagrama de secuencia: Ver Semanarios de un Paciente}}{39}{figure.3.21}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Diagrama de caso de uso: Gesti\IeC {\'o}n de recetas}}{40}{figure.3.22}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Diagrama de secuencia: Nueva Receta}}{41}{figure.3.23}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagrama de secuencia: Editar Receta}}{42}{figure.3.24}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Diagrama de secuencia: Eliminar Receta}}{43}{figure.3.25}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Modelo conceptual de datos: Diagrama conceptual de clases}}{44}{figure.3.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de Interacci\IeC {\'o}n: Nuevo Dietista}}{48}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Capa de presentaci\IeC {\'o}n: Nuevo Paciente}}{49}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Capa de presentaci\IeC {\'o}n: Men\IeC {\'u} Principal}}{51}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Capa de presentaci\IeC {\'o}n: Pesta\IeC {\~n}a Datos Personales}}{52}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Capa de presentaci\IeC {\'o}n: Pesta\IeC {\~n}a Estudio Antropom\IeC {\'e}trico}}{53}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Capa de presentaci\IeC {\'o}n: Pesta\IeC {\~n}a Historia Diet\IeC {\'e}tica}}{54}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Capa de presentaci\IeC {\'o}n: Pesta\IeC {\~n}a Registro Diet\IeC {\'e}tico}}{55}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Capa de presentaci\IeC {\'o}n: Formulario Nuevo Paciente}}{56}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Capa de presentaci\IeC {\'o}n: Formulario Nueva Receta}}{57}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama Entidad Relaci\IeC {\'o}n}}{59}{figure.4.10}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Presentaci\IeC {\'o}n de la aplicaci\IeC {\'o}n.}}{76}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Barra superior.}}{76}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Submen\IeC {\'u} Archivo.}}{77}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Submen\IeC {\'u} Paciente.}}{77}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Submen\IeC {\'u} Receta.}}{77}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Submen\IeC {\'u} Receta.}}{78}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Ventana Abrir Dietista.}}{78}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Ventana Contrase\IeC {\~n}a Dietista.}}{79}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Ventana Nuevo Dietista.}}{79}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Ventana Confirmaci\IeC {\'o}n Eliminar Dietista.}}{80}{figure.7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Ventana Cerrar Perfil Dietista.}}{80}{figure.7.11}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Ventana Imprimir.}}{80}{figure.7.12}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Ventana Nuevo Paciente: 1\IeC {\textordmasculine } Paso.}}{81}{figure.7.13}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Ventana Nuevo Paciente: 2\IeC {\textordmasculine } Paso.}}{82}{figure.7.14}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Ventana Cuestionario de Frecuencia.}}{83}{figure.7.15}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Ventana Abrir Paciente.}}{83}{figure.7.16}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Ventana Eliminar Paciente.}}{84}{figure.7.17}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Ventana Nueva Receta.}}{85}{figure.7.18}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Ventana A\IeC {\~n}adir Ingrediente.}}{86}{figure.7.19}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Ventana Nuevo Ingrediente.}}{87}{figure.7.20}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Ventana Modificar Ingrediente.}}{87}{figure.7.21}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Ventana Listar Recetas.}}{88}{figure.7.22}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Ventana Modificar Receta.}}{89}{figure.7.23}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Ventana Eliminar Receta.}}{90}{figure.7.24}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Ventana Acerca de.}}{90}{figure.7.25}
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Ventana Cr\IeC {\'e}ditos.}}{91}{figure.7.26}
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Pesta\IeC {\~n}as de la aplicaci\IeC {\'o}n.}}{91}{figure.7.27}
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Pesta\IeC {\~n}a Datos de Paciente.}}{92}{figure.7.28}
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Ventana Informaci\IeC {\'o}n M\IeC {\'e}dica.}}{93}{figure.7.29}
+\contentsline {figure}{\numberline {7.30}{\ignorespaces Ventana Enfermedades y Patolog\IeC {\'\i }as.}}{94}{figure.7.30}
+\contentsline {figure}{\numberline {7.31}{\ignorespaces Ventana Nuevas Enfermedades y Patolog\IeC {\'\i }as.}}{95}{figure.7.31}
+\contentsline {figure}{\numberline {7.32}{\ignorespaces Ventana Nuevo Ingrediente Enfermedades y Patolog\IeC {\'\i }as.}}{95}{figure.7.32}
+\contentsline {figure}{\numberline {7.33}{\ignorespaces Pesta\IeC {\~n}a Estudio Antropom\IeC {\'e}trico.}}{97}{figure.7.33}
+\contentsline {figure}{\numberline {7.34}{\ignorespaces Pesta\IeC {\~n}a Estudio Antropom\IeC {\'e}trico.}}{98}{figure.7.34}
+\contentsline {figure}{\numberline {7.35}{\ignorespaces Pesta\IeC {\~n}a Historia Diet\IeC {\'e}tica.}}{99}{figure.7.35}
+\contentsline {figure}{\numberline {7.36}{\ignorespaces Ventana Informaci\IeC {\'o}n General.}}{100}{figure.7.36}
+\contentsline {figure}{\numberline {7.37}{\ignorespaces Ventana Diario Diet\IeC {\'e}tico.}}{100}{figure.7.37}
+\contentsline {figure}{\numberline {7.38}{\ignorespaces Ventana Recordatorio 24h.}}{101}{figure.7.38}
+\contentsline {figure}{\numberline {7.39}{\ignorespaces Ventana Cuestionario de Frecuencia.}}{103}{figure.7.39}
+\contentsline {figure}{\numberline {7.40}{\ignorespaces Pesta\IeC {\~n}a Registro Diet\IeC {\'e}tico.}}{104}{figure.7.40}
+\contentsline {figure}{\numberline {7.41}{\ignorespaces Ventana Ver Recetas.}}{105}{figure.7.41}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 

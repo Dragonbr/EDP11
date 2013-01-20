@@ -1,0 +1,758 @@
+% ------------------------------------------------------------------------------
+% Este fichero es parte de la plantilla LaTeX para la realización de Proyectos
+% Final de Grado, protegido bajo los términos de la licencia GFDL.
+% Para más información, la licencia completa viene incluida en el
+% fichero fdl-1.3.tex
+
+% Copyright (C) 2012 SPI-FM. Universidad de Cádiz
+% ------------------------------------------------------------------------------
+
+Las instrucciones de uso del sistema se detallan a continuación.
+
+\section{Introducción}
+Estudio Dietético Programado es un programa de escritorio desarrollado a medida para una dietista, que observando el crecimiento de los pacientes a tratar y el tiempo dedicado para cada uno de ellos ha decidido informatizar su sistema de dietas y forma de gestión de los pacientes.\\
+El programa consta de gestión de dietistas, gestión de pacientes, gestión de recetas y alimentos, así como generación de dietas semanales acorde con el sistema empleado en el seguimiento de dichos pacientes.\\
+\\
+Este manual pretende ser una guía para la correcta utilización del programa
+de escritorio Estudio Dietético Programado 2011 (EDP11).\\
+Software desarrollado para la realización de dietas personalizadas así
+como el seguimiento del paciente en su evolución.\\
+
+\section{Utilización}
+La aplicación esta orientada a dietistas profesionales con el fin de poder dar un buen servicio y seguimiento de sus pacientes.
+Cuando el usuario inicia la aplicación se mostrará la pantalla principal de la misma. Desde ella se podrá acceder a las diferentes opciones ofrecidas, descritas a lo largo de este manual.
+La aplicación contiene los siguientes componentes:
+\begin{itemize}
+\item \textbf{Barra de menú superior:} En dicha barra se mostrarán las distintas acciones posibles, habilitándose y deshabilitándose según la ejecución de la aplicación.
+\item \textbf{Área de información rápida:} En dicha área se podrán observar el nombre, edad, peso actual y peso objetivo, así como un icono de información que determinará si hay información relevante para el tratamiento del paciente.
+\item \textbf{Pestañas interiores de información e interactuación:} En dichas pestañas se obtendrán información del paciente a tratar así como aquello con lo que se pueda interactuar, separados en \textbf{Datos Personales}, \textbf{Estudio Antropométrico}, \textbf{Historia Dietética} y \textbf{Registro Dietético}
+\end{itemize}
+
+\begin{figure}[H]
+  \label{aplicacion}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/aplicacion.png} 
+  \end{center}
+  \caption{Presentación de la aplicación.}
+\end{figure}
+
+
+\subsection{Barra de menú superior}
+\begin{figure}[H]
+  \label{barra_superior}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/barra-superior.png}
+  \end{center}
+  \caption{Barra superior.}
+\end{figure}
+
+La barra superior contiene los submenús:
+\begin{itemize}
+\item Archivo
+\begin{itemize}
+\item Abrir Perfil Dietista
+\item Cerrar Perfil
+\item Guardar
+\item Imprimir
+\item Salir
+\end{itemize}
+
+\begin{figure}[H]
+  \label{archivo}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/archivo-barra.png}
+  \end{center}
+  \caption{Submenú Archivo.}
+\end{figure}
+
+\item Paciente
+\begin{itemize}
+\item Nuevo Paciente
+\item Abrir Paciente
+\item Cerrar Paciente
+\item Eliminar Paciente
+\end{itemize}
+
+\begin{figure}[H]
+  \label{paciente}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-barra.png} 
+  \end{center}
+  \caption{Submenú Paciente.}
+\end{figure}
+
+\item Recetas
+\begin{itemize}
+\item Nueva Receta
+\item Editar Receta
+\item Eliminar Receta
+\end{itemize}
+
+\begin{figure}[H]
+  \label{receta}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/receta-barra.png}
+  \end{center}
+  \caption{Submenú Receta.}
+\end{figure}
+
+\item Ayuda
+\begin{itemize}
+\item Manual
+\item Acerca de
+\end{itemize}
+
+\begin{figure}[H]
+  \label{ayuda}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/ayuda-barra.png} 
+  \end{center}
+  \caption{Submenú Receta.}
+\end{figure}
+
+\end{itemize}
+
+\subsubsection{Archivo}
+\begin{enumerate}
+\item \textbf{Abrir Perfil Dietista:}\\\\
+Desde aquí se podrá seleccionar el perfil de dietista a abrir, así como crear un perfil nuevo o eliminar uno existente.\\\\
+\begin{figure}[H]
+  \label{abrir_dietista}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/dietista-abrir.png} 
+  \end{center}
+  \caption{Ventana Abrir Dietista.}
+\end{figure}
+
+\begin{enumerate}
+\item \textit{Seleccionar perfil existente.}\\\\
+Al seleccionar un perfil existente se pasará a la ventana de contraseña, en la cual habrá que introducir la contraseña correspondiente al perfil.\\\\
+\begin{figure}[H]
+  \label{dietista_psswd}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/dietista-passwd.png}
+  \end{center}
+  \caption{Ventana Contraseña Dietista.}
+\end{figure}
+
+\item \textit{Nuevo Perfil.}\\\\
+Al seleccionar Nuevo se podrá incluir un nuevo perfil en el cual tendremos que rellenar los datos correspondientes así como elegir una contraseña para próximas insercciones.\\\\
+\begin{figure}[H]
+  \label{nuevo_dietista}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/dietista-datos.png}
+  \end{center}
+  \caption{Ventana Nuevo Dietista.}
+\end{figure}
+
+\item \textit{Eliminar Perfil.}\\\\
+Si procede a eliminar un perfil existente accederá a la ventana de confirmación, en tal caso deberá introducir la clave de administración, la cual deberá solicitar al administrador (gonzalezperezmanuel@gmail.com)\\\\
+\begin{figure}[H]
+  \label{confirmacion_eliminar}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/dietista-eliminar.png}
+  \end{center}
+  \caption{Ventana Confirmación Eliminar Dietista.}
+\end{figure}
+
+\end{enumerate}
+\item \textbf{Cerrar Perfil:}\\\\
+Al seleccionar Cerrar Perfil se cerrará el perfil en ejecución actual.\\\\
+\begin{figure}[H]
+  \label{confirmacion_eliminar}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/dietista-cerrar.png}
+  \end{center}
+  \caption{Ventana Cerrar Perfil Dietista.}
+\end{figure}
+
+\item \textbf{Guardar}\\\\
+Al seleccionar Guardar se guardarán los cambios efectuados a lo largo del programa.
+\item \textbf{Imprimir}\\\\
+Al seleccionar Imprimir se imprimirá el semanario último guardado, así como las correspondientes elaboraciones de cada plato.\\\\
+\begin{figure}[H]
+  \label{imprimir}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/dietista-imprimir.png}
+  \end{center}
+  \caption{Ventana Imprimir.}
+\end{figure}
+
+\item \textbf{Salir}\\\\
+Al seleccionar Salir se saldrá de la aplicación.\\\\
+\end{enumerate}
+
+
+\subsubsection{Paciente}
+\begin{enumerate}
+\item \textbf{Nuevo Paciente}\\\\
+Al seleccionar Nuevo Paciente se podrá dar de alta a un paciente asociado al perfil de dietista actual.\\\\
+\begin{figure}[H]
+  \label{nuevo_paciente1}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-nuevo1.png}
+  \end{center}
+  \caption{Ventana Nuevo Paciente: 1º Paso.}
+\end{figure}
+
+Una vez introducidos los datos, se pasará a la siguiente ventana.\\\\
+\begin{figure}[H]
+  \label{nuevo_paciente2}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-nuevo2.png}
+  \end{center}
+  \caption{Ventana Nuevo Paciente: 2º Paso.}
+\end{figure}
+
+Desde esta ventana se podrá imprimir el \textit{Diario Dietético} y el \textit{Recordatorio 24 h.}; así como rellenar el \textit{Cuestionario de Frecuencia}.
+\begin{enumerate}
+\item \textit{Diario Dietético.}\\\\
+El Diario Dietético se trata de un diario de 3 días el cual el paciente se deberá llevar a casa para rellenarlo siguiendo las instrucciones, apuntando todas las comidas que hace durante los días señalados.
+\item \textit{Recordatorio 24 h.}\\\\
+El Recordatorio 24 h. se trata de un diario de 1 día el cual el paciente deberá rellenar con lo que recuerde haber comido en el día anterior.
+\item \textit{Cuestionario de Frecuencia.}\\\\
+El Cuestionario de Frecuencia servirá para apuntar la frecuencia con la cual se consumen los alimentos, así como la preferencia puntuando de 1 a 5 sobre los mismos.\\\\
+\begin{figure}[H]
+  \label{cuest_frec}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/cuestfrec.png}
+  \end{center}
+  \caption{Ventana Cuestionario de Frecuencia.}
+\end{figure}
+
+\end{enumerate}
+\item \textbf{Abrir Paciente}\\\\
+Al seleccionar Abrir Paciente se accederá a la ventana con el listado de los pacientes del dietista actual. Desde aquí se podrá seleccionar al paciente deseado.\\\\
+\begin{figure}[H]
+  \label{abrir_paciente}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-abrir.png}
+  \end{center}
+  \caption{Ventana Abrir Paciente.}
+\end{figure}
+
+\item \textbf{Cerrar Paciente}\\\\
+Desde aquí se cerrará el perfil de paciente actual.
+\item \textbf{Eliminar Paciente}\\\\
+Desde aquí se accederá al listado de pacientes, desde el cual se podrá eliminar el paciente seleccionado y así todos sus datos.\\\\
+\begin{figure}[H]
+  \label{eliminar_paciente}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-eliminar.png}
+  \end{center}
+  \caption{Ventana Eliminar Paciente.}
+\end{figure}
+
+\end{enumerate}
+
+
+\subsubsection{Recetas}
+\begin{enumerate}
+\item \textbf{Nueva Receta}\\\\
+Al seleccionar Nueva Receta se accederá a la ventana desde la cual elaborar una nueva receta perteneciente al perfil del dietista actual.\\\\
+\begin{figure}[H]
+  \label{nueva_receta}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/receta-nueva.png}
+  \end{center}
+  \caption{Ventana Nueva Receta.}
+\end{figure}
+
+En la elaboración de la receta se rellenará el nombre, los ingredientes y las indicaciones para la preparación. 
+\begin{enumerate}
+\item \textit{Añadir Ingredientes}\\\\
+Para añadir ingredientes se seleccionará Añadir, el cual accederá a la ventana de selección de ingredientes.\\\\
+\begin{figure}[H]
+  \label{anadir_ingred}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/ingrediente-anadir.png}
+  \end{center}
+  \caption{Ventana Añadir Ingrediente.}
+\end{figure}
+
+Estos ingredientes estarán clasificados por grupos y alfabéticamente, ofreciendo una mejora en la búsqueda.
+Desde aquí se podrá seleccionar el ingrediente y escribir la cantidad deseada para la receta.
+En el caso de no encontrar un ingrediente u observar alguna errata en alguno de ellos, existen opciones para las operaciones respectivamente.\\\\
+\begin{enumerate}
+\item \textit{Nuevo}\\\\
+Al seleccionar Nuevo, se accederá a la ventana desde la cual describir todo lo necesario para ingresar un nuevo ingrediente.\\\\
+\begin{figure}[H]
+  \label{nuevo_ingred}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/ingrediente-nuevo.png}
+  \end{center}
+  \caption{Ventana Nuevo Ingrediente.}
+\end{figure}
+
+En dicha ventana se pedirá nombre del ingrediente, medida en la que se medirá, pudiendo ser 1, 10, 100 siendo unidad, mililitros y gramos respectivamente, tipo, donde se pondrá el grupo al que pertenece, y por último las calorías del ingrediente que comprenden la medida elegida.
+\item \textit{Modificar}\\\\
+Al seleccionar un ingrediente y posteriormente la opción Modificar, se podrá modificar cualquiera de los campos del ingrediente.\\\\
+\begin{figure}[H]
+  \label{modificar_ingred}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/ingrediente-modificar.png}
+  \end{center}
+  \caption{Ventana Modificar Ingrediente.}
+\end{figure}
+
+Atención: Al modificar un ingrediente, quedarán modificadas todas las recetas en las que aparezca dicho ingrediente. Se recomienda revisarlas para evitar errores con respecto a las calorías.\\\\
+\end{enumerate}
+\item \textit{Eliminar Ingredientes}\\\\
+Al seleccionar Eliminar se eliminará el ingrediente seleccionado de la lista de ingredientes que componen la receta.
+\end{enumerate}
+\item \textbf{Editar Receta}\\\\
+Al seleccionar Editar Receta, se obtendrá un listado con todas las recetas.\\\\
+\begin{figure}[H]
+  \label{listado_recetas}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/receta-modificar.png}
+  \end{center}
+  \caption{Ventana Listar Recetas.}
+\end{figure}
+
+Desde aquí se elegirá una de las recetas para su modificación, obteniendo todos los datos, pudiendo modificar cualquiera de los campos.\\\\
+\begin{figure}[H]
+  \label{modificar_receta}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/receta-modificar2.png}
+  \end{center}
+  \caption{Ventana Modificar Receta.}
+\end{figure}
+
+Nótese que existen las opciones Añadir y Eliminar, las cuales tendrán las mismas funciones que las accesibles desde la opción Nueva Receta
+\item \textbf{Eliminar Receta}\\\\
+Al seleccionar Eliminar Receta se obtendrá un listado de las recetas ordenadas igualmente por tipo de receta y alfabéticamente, de las cuales seleccionar cual se desea eliminar.\\\\
+\begin{figure}[H]
+  \label{eliminar_receta}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/receta-eliminar.png}
+  \end{center}
+  \caption{Ventana Eliminar Receta.}
+\end{figure}
+
+\end{enumerate}
+
+
+\subsubsection{Ayuda}
+\begin{enumerate}
+\item \textbf{Manual}\\\\
+Al seleccionar Manual se accederá al presente manual.\\
+\item \textbf{Acerca de}\\\\
+Al seleccionar Acerca de, se accederá a la ventana que ofrece información sobre la aplicación.\\\\
+\begin{figure}[H]
+  \label{acercade}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/acercade.png}
+  \end{center}
+  \caption{Ventana Acerca de.}
+\end{figure}
+
+Desde aquí también se podrá acceder a los Créditos y a la Licencia.\\
+\begin{enumerate}
+\item \textit{Créditos}\\\\
+Seleccionando Créditos podrá acceder a la ventana de información acerca de la realización y soporte de la aplicación.\\\\
+\begin{figure}[H]
+  \label{creditos}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/creditos.png}
+  \end{center}
+  \caption{Ventana Créditos.}
+\end{figure}
+
+\item \textit{Licencia}\\\\
+Seleccionando Licencia se accederá a los términos de la Licencia bajo la que se distribuye la aplicación, siendo en este caso GPL3.0.\\\\
+\end{enumerate}
+\end{enumerate}
+
+
+\subsection{Pestañas interiores de información e interactuación}
+\begin{figure}[H]
+  \label{pestanas}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/pestanas.png}
+  \end{center}
+  \caption{Pestañas de la aplicación.}
+\end{figure}
+
+A través de las pestañas es desde donde se presentarán los datos del paciente, y desde donde se le realizará el seguimiento.
+Se compone de cuatro pestañas:
+\begin{itemize}
+\item Datos Personales
+\item Estudio Antropométrico
+\item Historia Dietética
+\item Registro Dietético
+\end{itemize}
+
+\subsubsection{Datos Personales}
+Desde aquí se mostrarán los datos personales del paciente, tales como sexo, nombre, apellidos, fecha de nacimiento, edad, dni, dirección, teléfono y profesión.\\\\
+\begin{figure}[H]
+  \label{datos_paciente}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-datos.png}
+  \end{center}
+  \caption{Pestaña Datos de Paciente.}
+\end{figure}
+
+También se podrá acceder a Información Médica relevante.\\
+\begin{enumerate}
+\item \textit{Información Médica}\\\\
+Al seleccionar Información Médica se accederá a datos relevantes sobre el paciente, como análíticas, tratamiento farmacológico, y también enfermedades y patologías.\\\\
+\begin{figure}[H]
+  \label{infomed}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/infomed.png}
+  \end{center}
+  \caption{Ventana Información Médica.}
+\end{figure}
+
+\begin{enumerate}
+\item Analíticas\\\\
+En la sección de analíticas se mostrarán las analíticas del paciente que se realice a lo largo de su seguimiento.
+\begin{enumerate}
+\item Añadir\\\\
+Al seleccionar Añadir, se abrirá un diálogo para seleccionar el PDF escaneado de la analítica.\\
+\item Eliminar\\\\
+Al seleccionar Eliminar, se eliminará el análisis seleccionado.\\
+\item Ver Analítica\\\\
+Al seleccionar Ver Analítica, se abrirá el PDF de la analítica seleccionado.\\
+\end{enumerate}
+\item Tratamiento Farmacológico\\\\
+En tratamiento farmacológico describirá cualquier tipo de medicación del paciente, la cual se deba tener en cuenta o pueda influir en el seguimiento del mismo.\\
+\item Enfermedades y Patologías\\\\
+En enfermedades y patologías se mostrarán las enfermedades o patologías que tenga el paciente.\\
+\begin{enumerate}
+\item Añadir\\\\
+Al seleccionar Añadir, se abrirá un listado con las distintas enfermedades o patologías registradas.\\\\
+\begin{figure}[H]
+  \label{enfermedad}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/enfermedad.png}
+  \end{center}
+  \caption{Ventana Enfermedades y Patologías.}
+\end{figure}
+
+\begin{enumerate}
+\item Nuevo\\\\
+En el caso de no encontrar la enfermedad o patología deseada, se podrá registrar una nueva, seleccionando la opción Nuevo.\\\\
+\begin{figure}[H]
+  \label{enfermedad_nueva}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/enfermedad-nueva.png}
+  \end{center}
+  \caption{Ventana Nuevas Enfermedades y Patologías.}
+\end{figure}
+
+Aquí se rellenará el nombre que recibe y se añadirán los ingredientes a los que afecte y se deban evitar.\\\\
+\begin{itemize}
+\item Añadir\\\\
+Al seleccionar Añadir, se accederá a la ventana de selección de ingredientes ordenada por categorías.\\\\
+\begin{figure}[H]
+  \label{nuevo_ingred_enfermedad}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/enfermedad-nuevoingrd.png}
+  \end{center}
+  \caption{Ventana Nuevo Ingrediente Enfermedades y Patologías.}
+\end{figure}
+
+\item Eliminar\\\\
+Al seleccionar Eliminar, se eliminará el ingrediente seleccionado del conjunto de ingredientes a evitar.\\\\
+\end{itemize}
+\item Eliminar\\\\
+Al seleccionar Eliminar, se eliminará tal enfermedad o patología para todos los pacientes.\\
+\end{enumerate}
+\item Eliminar\\\\
+Al seleccionar Eliminar, se eliminará la enfermedad o patología seleccionada para dicho paciente.\\
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+
+
+\subsubsection{Estudio Antropométrico}
+Desde aquí se mostrarán los datos antropométricos, tales como peso, altura, i.m.c., peso objetivo, centímetros de cadera, centímetros de cintura, pliegue tricipital, complexión, peso ideal, peso pactado, pérdida de materia grasa, pérdida de líquidos, metabolismo basal, actividad, incremento por actividad, reducción según edad, energía total, necesidad glucídica, necesidad lipídica, necesidad proteica y tratamiento de apoyo.\\\\
+\begin{figure}[H]
+  \label{nuevo_ingred_enfermedad}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-antrop.png}
+  \end{center}
+  \caption{Pestaña Estudio Antropométrico.}
+\end{figure}
+
+Con estos datos se interactuará a medida de la progresión del paciente, incrementando o disminuyendo los valores, con lo que variarán algunos datos dependientes.\\
+Algunos valores a tener en cuenta son:
+\begin{itemize}
+\item I.M.C.\\\\
+Según el valor, se mostrará un indicador ofreciendo información relacionada con el mismo. Al pulsarlo se mostrará una ventana con el glosario de los indicadores y su significado.\\
+\item Complexión\\\\
+Según sea la complexión delgada, media o ancha, variará el valor del peso ideal.\\
+\item Peso Objetivo\\\\
+Según el peso objetivo, variará el metabolismo basal.\\
+\item Pérdida de materia grasa\\\\
+Según la pérdida de materia grasa, variará la pérdida de líquidos y viceversa.\\
+\item Actividad\\\\
+Según sea la actividad ligera, mediana o intensa, variarán los valores del incremento por actividad, energía total, necesidad glucídica, necesidad lipídica y necesidad proteica.\\
+\item Reducción según edad\\\\
+Según la edad que se establece en la pestaña de datos personales, variará el valor de este indicador.\\
+\item Tratamiento de Apoyo\\\\
+Aquí se describirá cualquier tratamiento de apoyo que se recomiende, incluyendo su posología y observaciones si las hubiere, así como la fecha de recomendación.\\
+\begin{enumerate}
+\item \textit{Añadir}\\\\
+Al seleccionar Añadir se accederá a la ventana para incluir un nuevo tratamiento de apoyo.\\\\
+\begin{figure}[H]
+  \label{nuevo_tratap}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/tratamientoAp-anadir.png}
+  \end{center}
+  \caption{Pestaña Estudio Antropométrico.}
+\end{figure}
+
+\item \textit{Eliminar}\\\\
+Al seleccionar Eliminar se eliminará el tratamiendo de apoyo seleccionado.\\\\
+\end{enumerate}
+\end{itemize}
+
+
+\subsubsection{Historia Dietética}
+Desde aquí se tendrá acceso a las ventanas de control histórico dietético.\\\\
+\begin{figure}[H]
+  \label{paciente_hist}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/paciente-hist.png}
+  \end{center}
+  \caption{Pestaña Historia Dietética.}
+\end{figure}
+
+Estas ventanas se accederán mediante las opciones cuyos nombres son:
+\begin{itemize}
+\item Información General
+\item Diario Dietético
+\item Recordatorio 24h.
+\item Cuestionario de Frecuencia
+\end{itemize}
+
+\begin{enumerate}
+\item \textbf{Información General}\\\\
+Se trata de un cuestionario de preguntas o afirmaciones cortas, sobre las cuales contestar o anotar aclaraciones, relevantes acerca de la vida del paciente, con el fin de obtener mayor información por si influenciara en alguna medida a la elaboración del semanario.\\\\
+\begin{figure}[H]
+  \label{infogen}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/infogen.png}
+  \end{center}
+  \caption{Ventana Información General.}
+\end{figure}
+
+\item \textbf{Diario Dietético}\\\\
+Se trata de un registro de los recordatorios del paciente.\\\\
+\begin{figure}[H]
+  \label{diariodiet}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/diariodiet.png}
+  \end{center}
+  \caption{Ventana Diario Dietético.}
+\end{figure}
+
+También se dispone de las opciones Añadir, Eliminar, Formulario y Ver Recordatorio.
+\begin{enumerate}
+\item \textit{Añadir}\\\\
+Al seleccionar Añadir se accederá al explorador para seleccionar un documento PDF escaneado con el recordatorio deseado.\\\\
+\item \textit{Eliminar}\\\\
+Al seleccionar Eliminar se eliminará del registro del paciente el recordatorio seleccionado.\\\\
+\item \textit{Formulario}\\\\
+Al seleccionar Formulario se accederá al diálogo de impresión para imprimir el formulario del recordatorio.\\\\
+\item \textit{Ver Recordatorio}\\\\
+Al seleccionar Ver Recordatorio se visualizará el recordatorio seleccionado.\\\\
+\end{enumerate}
+\item \textbf{Recordatorio 24h.}\\\\
+Se trata de un registro de los diarios dietéticos del paciente.\\\\
+\begin{figure}[H]
+  \label{recordatorio}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/recordatorio.png}
+  \end{center}
+  \caption{Ventana Recordatorio 24h.}
+\end{figure}
+
+También se dispone de las opciones Añadir, Eliminar, Formulario y Ver Recordatorio.
+\begin{enumerate}
+\item \textit{Añadir}\\\\
+Al seleccionar Añadir se accederá al explorador para seleccionar un documento PDF escaneado con el diario dietético deseado.\\\\
+\item \textit{Eliminar}\\\\
+Al seleccionar Eliminar se eliminará del registro del paciente el diario dietético seleccionado.\\\\
+\item \textit{Formulario}\\\\
+Al seleccionar Formulario se accederá al diálogo de impresión para imprimir el formulario del diario dietético.\\\\
+\item \textit{Ver Diario}\\\\
+Al seleccionar Ver Diario se visualizará el diario dietético seleccionado.\\\\
+\end{enumerate}
+\item \textbf{Cuestionario de Frecuencia}\\\\
+Se trata del listado de ingredientes de los cuales se podrán registrar anotaciones con la frecuencia diaria, semanal o mensual, así como la preferencia comprendida entre los valores del 1 al 5 siendo 1 el menor grador de satisfación con el ingrediente y 5 el mayor.\\\\
+\begin{figure}[H]
+  \label{cuestfrec}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/cuestfrec.png}
+  \end{center}
+  \caption{Ventana Cuestionario de Frecuencia.}
+\end{figure}
+
+\end{enumerate}
+
+
+\subsubsection{Registro Dietético}
+Desde aquí se tendrá acceso al semanario a rellenar con las recetas, así como un listado de las recetas.\\\\
+\begin{figure}[H]
+  \label{cuestfrec}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../Image/paciente-registro.png}
+  \end{center}
+  \caption{Pestaña Registro Dietético.}
+\end{figure}
+
+Desde el desplegable del número de ingestas, se cambiará el semanario. Siendo el mínimo posible, tres ingestas y el máximo seis ingestas. Según el número de ingestas se clasificarán como referencia en:
+\begin{itemize}
+\item Tres ingestas: Desayuno, Almuerzo y Cena.
+\item Cuatro ingestas: Desayuno, Almuerzo, Merienda y Cena.
+\item Cinco ingestas: Desayuno, Media Mañana, Almuerzo, Merienda y Cena.
+\item Seis ingestas: Desayuno, Media Mañana, Almuerzo, Merienda, Cena y Tentempié.
+\end{itemize}
+En la parte derecha de cada comida se muestran unos indicadores con el número de kilocalorías permitidas para una de ellas.\\
+El semanario se rellenará arrastrando y soltando las recetas deseadas, seleccionándolas de las recetas disponibles que se muestran.\\
+En la parte inferior del semanario esta situado el botón Kcal./día, al seleccionarlo, se obtendrán los indicadores de referencia de cuántas kilocalorías tiene el día en cuestión en ese momento. Al finalizar el rellenado del semanario, se recomienda volver a pulsar dicho botón para obtener los indicadores finales. Éstos se mostrarán en dos colores posibles, verde en el caso de ser menor a la energía total calculada en la pestaña de datos antropométricos, o en rojo en el caso de ser mayor.\\\\
+Se dispone de la opción Ver Recetas, éste será un listado de las distintas recetas guardadas a lo largo del seguimiento del paciente.\\\\
+\begin{figure}[H]
+  \label{cuestfrec}
+  \begin{center}
+    % Comentar si no está el paquete tkiz instalado, y descomentar la
+    % linea siguiente. Comentar además la inclusión del paquete en
+    % estilos/estiloBase.sty
+    \includegraphics[scale=0.5]{../../Image/verrecetas.png}
+  \end{center}
+  \caption{Ventana Ver Recetas.}
+\end{figure}
+
+En dicho listado, se clasificarán por fecha de guardado, número de ingestas y kilocalorías.\\\\
+Se dispone de las opciones Utilizar y Ver.
+\begin{enumerate}
+\item \textit{Utilizar}\\\\
+Al seleccionar Utilizar se copiarán las recetas del semanario seleccionado al actual.\\
+\item \textit{Ver}\\\\
+Al seleccionar Ver se abrirá un documento con el semanario seleccionado.\\
+\end{enumerate}
+
